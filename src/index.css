@@ -6,7 +6,15 @@
 @layer base {
 
     h1 {
-        @apply font-cinzel font-normal text-xl pt-2 pb-6
+        @apply font-cinzel font-normal text-5xl pt-2 pb-6
+    }
+
+    h2 {
+        @apply font-cinzel font-normal text-xl
+    }
+
+    p {
+        @apply font-raleway font-normal text-lg
     }
 
 }
