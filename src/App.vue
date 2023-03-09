@@ -26,7 +26,7 @@ import { RouterLink, RouterView } from "vue-router";
 
 
   </header>
-<main>
+<main class="bg-whiteb">
   <RouterView />
 </main>
 
