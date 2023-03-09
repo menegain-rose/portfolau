@@ -9,7 +9,7 @@
         </div>
     </div>
 
-    <section>
+    <section class="my-20">
         <div>
             <h2>gfsddqd</h2>
             <p>
@@ -17,8 +17,75 @@
             </p>
         </div>
         <div>
-
+            <div>
+                <img src="" alt="">
+            </div>
+            <div>
+                <img src="" alt="">
+            </div>
+            <div>
+                <img src="" alt="">
+            </div>
         </div>
     </section>
 
+    <section>
+        <div>
+            <h2>Naknowledge</h2>
+            <p>
+                jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;
+            </p>
+        </div>
+        <div>
+            <img src="" alt="">
+        </div>
+    </section>
+    <section>
+        <div>
+            <h2>Designs</h2>
+            <h3>Maquettes</h3>
+            <p>
+                jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;
+            </p>
+            <img src="" alt="">
+        </div>
+        <div>
+            <h3>Affiches</h3>
+            <p>
+                jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;
+            </p>
+            <img src="" alt="">
+        </div>
+        <div>
+            <h3>Logos</h3>
+            <p>
+                jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;
+            </p>
+            <img src="" alt="">
+        </div>
+    </section>
+    <section>
+        <div>
+            <h2>Développement</h2>
+            <h3>TikTak</h3>
+            <p>
+                jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;
+            </p>
+            <img src="" alt="">
+        </div>
+        <div>
+            <h3>OpenStreetMap & Graphiques</h3>
+            <p>
+                jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;
+            </p>
+            <img src="" alt="">
+        </div>
+        <div>
+            <h3>Honeyst</h3>
+            <p>
+                jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;
+            </p>
+            <img src="" alt="">
+        </div>
+    </section>
 </template>

@@ -13,6 +13,14 @@
         @apply font-cinzel font-normal text-xl
     }
 
+    h3 {
+        @apply font-cinzel font-normal text-lg
+    }
+
+    h4 {
+        @apply font-raleway font-normal text-lg
+    }
+
     p {
         @apply font-raleway font-normal text-lg
     }
