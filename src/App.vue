@@ -21,6 +21,20 @@ import { RouterLink, RouterView } from "vue-router";
         </h3>
       </router-link>
     </li>
+    <li class=""> 
+      <router-link to="/Design">
+        <h3>
+          Design
+        </h3>
+      </router-link>
+    </li>
+    <li class=""> 
+      <router-link to="/Developpement">
+        <h3>
+          Développement
+        </h3>
+      </router-link>
+    </li>
   </ul>
 </nav>
 
