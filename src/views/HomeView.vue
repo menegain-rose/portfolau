@@ -28,9 +28,6 @@ import Bouton from "@/components/bouton.vue"
                 Si vous souhaitez discuter de projets futurs et me poser des questions, je vous invite à me contacter sur mes différents réseaux ou par mail..
             </p>
             <div class="flex mt-2 sm:mt-5">
-                <div>
-                    <a href=""></a>
-                </div>
                 <img src="/public/Icons/Discord.svg" class="w-8 mr-5" alt="">
                 <img src="/public/Icons/Instagram.svg" class="w-8 mr-5" alt="">
                 <img src="/public/Icons/Linkedin.svg" class="w-8 mr-5" alt="">
@@ -75,12 +72,44 @@ import Bouton from "@/components/bouton.vue"
             </p>
 
             <div class="text-center">
-                <Bouton class="">
+                <Bouton class="mt-10">
                     <router-link to="/Design">
                         Voir plus
                     </router-link>
                 </Bouton>
+            </div>
+        </div>
+    </section>
 
+    <section>
+        <div class="bg-clearbrown px-8 py-14 sm:p-20 mt-20">
+            <h2>Développement</h2>
+
+            <h3 class="pt-5">OpenStreetMap</h3>
+            <p class="pt-2">
+                J'ai pu confectionner et imaginer différentes maquettes depuis le début de mes études en BUT MMI. <br>
+                Mes différentes maquettes vous offres des exemples de mon expérience en matière de conception d'interfaces utilisateur (UI) et d'expérience utilisateur (UX), <br>
+                Sur lequel j'ai pu m'adapter aux demandes des divers commanditaires et donc améliorer mes designs pour répondre aux demandes et surtout aux besoins des futures utilisateurs
+            </p>
+
+            <h3 class="pt-10">Supabase</h3>
+            <p class="pt-2">
+                J'ai également pu faire quelques affiches et cartes postales, que ce sois pour méxercer, ou lier avec le BUT. <br>
+                Ces projets m'ont aider à approfondir ma créativité et mes compétences en design graphiques.
+            </p>
+
+            <h3 class="pt-10">Logos</h3>
+            <p class="pt-2">
+                J'ai également pu faire quelques affiches et cartes postales, que ce sois pour méxercer, ou lier avec le BUT. <br>
+                Ces projets m'ont aider à approfondir ma créativité et mes compétences en design graphiques.
+            </p>
+
+            <div class="text-center">
+                <Bouton class="mt-10">
+                    <router-link to="/Design">
+                        Voir plus
+                    </router-link>
+                </Bouton>
             </div>
         </div>
     </section>
