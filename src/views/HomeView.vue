@@ -15,7 +15,7 @@ import Bouton from "@/components/bouton.vue"
     <section class="my-10 sm:my-20 grid grid-cols-1 sm:grid-cols-2">
         <div class="bg-clearbeige px-8 py-14 sm:p-20">
             <h2>Mes travaux</h2>
-            <p class="pt-10">
+            <p class="pt-5">
                 Découvrez ici mes divers projets, ainsi que mes réalisations dans les domaines du design et du développement web.
             </p>
             <p class="pt-3">
@@ -127,8 +127,12 @@ import Bouton from "@/components/bouton.vue"
 
     <section class="bg-clearbrown px-8 py-14 sm:p-20 mt-20">
         <h2>Logiciels</h2>
-        <div>
-            
+        <div class="pt-5">
+            <img src="/public/Logiciels/figma.png" class="w-auto h-20" alt="">
+            <img src="/public/Logiciels/Audition.svg.png" class="w-20 h-auto" alt="">
+            <img src="/public/Logiciels/Illustrator.png" class="w-40 h-auto" alt="">
+            <img src="/public/Logiciels/PremierePro.svg.png" class="w-20 h-auto" alt="">
+            <img src="/public/Logiciels/InDesign.png" class="w-20 h-auto" alt="">
         </div>
 
 
