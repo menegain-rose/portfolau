@@ -14,7 +14,9 @@ module.exports = withAnimations({
         "clearbeige": "#eae5d8",
         "clearbrown": "#c3b4a3",
         "brown": "#866e53",
+        "darkbrown": "#755E43",
         "cleargreen": "#8ea765",
+        "mediumgreen": "#677749",
         "darkgreen": "#47572b",
         "blackgreen": "#001000"
       },
