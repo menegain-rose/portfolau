@@ -38,50 +38,61 @@ import Bouton from "@/components/bouton.vue"
             </div>
         </div>
         
-
         <div class="mx-2 sm:mx-10">
-            <div class="flex flex-col sm:flex-row items-center bg-brown my-10 py-5 px-5 rounded-lg">
-                <img src="/public/images/Design/Cassandre_RoseMENEGAIN_A2.svg" class="w-auto h-60 order-last sm:order-first" alt="">
-                <h2 class="text-whiteb mb-5 sm:ml-10">Designs</h2>
-            </div>
+            <router-link to="/Design">
+                <div class="flex flex-col sm:flex-row items-center bg-brown my-10 py-5 px-5 rounded-lg">
+                    <img src="/public/images/Design/Cassandre_RoseMENEGAIN_A2.svg" class="w-auto h-60 order-last sm:order-first" alt="">
+                    <h2 class="text-whiteb mb-5 sm:ml-10">Designs</h2>
+                </div>
+            </router-link>
+            <router-link to="/Developpement">
             <div class="flex flex-col sm:flex-row items-center bg-brown my-10 py-5 px-5 rounded-lg">
                 <img src="/public/images/sae301.png" class="w-auto h-60 order-last sm:order-first" alt="">
                 <h2 class="text-whiteb mb-5 sm:ml-10">Développement</h2>
             </div>
+        </router-link>
         </div>
     </section>
 
 
     <section>
-        <div class="bg-clearbrown px-8 py-14 sm:p-20">
-            <h2>Designs</h2>
-
-            <h3 class="pt-5">Maquettes</h3>
-            <p class="pt-2">
-                J'ai pu confectionner et imaginer différentes maquettes depuis le début de mes études en BUT MMI. <br>
-                Mes différentes maquettes vous offres des exemples de mon expérience en matière de conception d'interfaces utilisateur (UI) et d'expérience utilisateur (UX), <br>
-                Sur lequel j'ai pu m'adapter aux demandes des divers commanditaires et donc améliorer mes designs pour répondre aux demandes et surtout aux besoins des futures utilisateurs.
-            </p>
-
-            <h3 class="pt-10">Affiches</h3>
-            <p class="pt-2">
-                J'ai également pu faire quelques affiches et cartes postales, que ce sois pour méxercer, ou lier avec le BUT. <br>
-                Ces projets m'ont aider à approfondir ma créativité et mes compétences en design graphiques.
-            </p>
-
-            <h3 class="pt-10">Logos</h3>
-            <p class="pt-2">
-                J'ai également pu faire quelques affiches et cartes postales, que ce sois pour méxercer, ou lier avec le BUT. <br>
-                Ces projets m'ont aider à approfondir ma créativité et mes compétences en design graphiques.
-            </p>
-
-            <div class="text-center">
-                <Bouton class="mt-10">
-                    <router-link to="/Design">
-                        Voir plus
-                    </router-link>
-                </Bouton>
+        <div class="bg-clearbrown px-8 py-14 sm:p-20 grid grid-cols-2">
+            <div>
+                <h2>Designs</h2>
+    
+                <h3 class="pt-5">Maquettes</h3>
+                <p class="pt-2">
+                    J'ai pu confectionner et imaginer différentes maquettes depuis le début de mes études en BUT MMI. <br>
+                    Mes différentes maquettes vous offres des exemples de mon expérience en matière de conception d'interfaces utilisateur (UI) et d'expérience utilisateur (UX), <br>
+                    Sur lequel j'ai pu m'adapter aux demandes des divers commanditaires et donc améliorer mes designs pour répondre aux demandes et surtout aux besoins des futures utilisateurs.
+                </p>
+    
+                <h3 class="pt-10">Affiches</h3>
+                <p class="pt-2">
+                    J'ai également pu faire quelques affiches et cartes postales, que ce sois pour méxercer, ou lier avec le BUT. <br>
+                    Ces projets m'ont aider à approfondir ma créativité et mes compétences en design graphiques.
+                </p>
+    
+                <h3 class="pt-10">Logos</h3>
+                <p class="pt-2">
+                    J'ai également pu faire quelques affiches et cartes postales, que ce sois pour méxercer, ou lier avec le BUT. <br>
+                    Ces projets m'ont aider à approfondir ma créativité et mes compétences en design graphiques.
+                </p>
+    
+                <div class="text-center">
+                    <Bouton class="mt-10">
+                        <router-link to="/Design">
+                            Voir plus
+                        </router-link>
+                    </Bouton>
+                </div>
             </div>
+
+            <div class="flex-col sm:flex-row">
+                <img src="/public/images/Design/Bonyfest.png" class="w-auto h-60" alt="">
+                <img src="/public/images/Design/Citadelle.svg" class="w-auto h-60" alt="">
+            </div>
+
         </div>
     </section>
 
@@ -114,44 +125,14 @@ import Bouton from "@/components/bouton.vue"
     </section>
 
 
-    <section>
+    <section class="bg-clearbrown px-8 py-14 sm:p-20 mt-20">
+        <h2>Logiciels</h2>
         <div>
-            <h3>Affiches</h3>
-            <p>
-                jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;
-            </p>
-            <img src="" alt="">
+            
         </div>
-        <div>
-            <h3>Logos</h3>
-            <p>
-                jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;
-            </p>
-            <img src="" alt="">
-        </div>
+
+
+
     </section>
-    <section>
-        <div>
-            <h2>Développement</h2>
-            <h3>TikTak</h3>
-            <p>
-                jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;
-            </p>
-            <img src="" alt="">
-        </div>
-        <div>
-            <h3>OpenStreetMap & Graphiques</h3>
-            <p>
-                jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;
-            </p>
-            <img src="" alt="">
-        </div>
-        <div>
-            <h3>Honeyst</h3>
-            <p>
-                jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;jhgsfdqdfghj;
-            </p>
-            <img src="" alt="">
-        </div>
-    </section>
+
 </template>
