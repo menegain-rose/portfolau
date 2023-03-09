@@ -29,8 +29,12 @@ import Bouton from "@/components/bouton.vue"
             </p>
             <div class="flex mt-2 sm:mt-5">
                 <img src="/public/Icons/Discord.svg" class="w-8 mr-5" alt="">
-                <img src="/public/Icons/Instagram.svg" class="w-8 mr-5" alt="">
-                <img src="/public/Icons/Linkedin.svg" class="w-8 mr-5" alt="">
+                <a href="https://www.instagram.com/eiku_s/">
+                    <img src="/public/Icons/Instagram.svg" class="w-8 mr-5" alt="">
+                </a>
+                <a href="https://www.linkedin.com/in/rose-menegain/">
+                    <img src="/public/Icons/Linkedin.svg" class="w-8 mr-5" alt="">
+                </a>
             </div>
         </div>
         
@@ -56,7 +60,7 @@ import Bouton from "@/components/bouton.vue"
             <p class="pt-2">
                 J'ai pu confectionner et imaginer différentes maquettes depuis le début de mes études en BUT MMI. <br>
                 Mes différentes maquettes vous offres des exemples de mon expérience en matière de conception d'interfaces utilisateur (UI) et d'expérience utilisateur (UX), <br>
-                Sur lequel j'ai pu m'adapter aux demandes des divers commanditaires et donc améliorer mes designs pour répondre aux demandes et surtout aux besoins des futures utilisateurs
+                Sur lequel j'ai pu m'adapter aux demandes des divers commanditaires et donc améliorer mes designs pour répondre aux demandes et surtout aux besoins des futures utilisateurs.
             </p>
 
             <h3 class="pt-10">Affiches</h3>
@@ -82,31 +86,26 @@ import Bouton from "@/components/bouton.vue"
     </section>
 
     <section>
-        <div class="bg-clearbrown px-8 py-14 sm:p-20 mt-20">
+        <div class="bg-clearbeige px-8 py-14 sm:p-20 mt-20">
             <h2>Développement</h2>
 
-            <h3 class="pt-5">OpenStreetMap</h3>
+            <h3 class="pt-5">OpenStreetMap & Utilisations d'API</h3>
             <p class="pt-2">
-                J'ai pu confectionner et imaginer différentes maquettes depuis le début de mes études en BUT MMI. <br>
-                Mes différentes maquettes vous offres des exemples de mon expérience en matière de conception d'interfaces utilisateur (UI) et d'expérience utilisateur (UX), <br>
-                Sur lequel j'ai pu m'adapter aux demandes des divers commanditaires et donc améliorer mes designs pour répondre aux demandes et surtout aux besoins des futures utilisateurs
+                En utilisant OpenStreetMap et différentes API, il est possible, comme avec Google, de référencer différents lieux sur la carte de façon gratuite et fonctionnelle. <br>
+                Cela est maintenant une compétence que j'ai acquise et dont je peux me servir dans différents projets. <br>
+                J'ai également utilisé des API pour mettre en place des graphiques afin de visualiser les données de manière claire pour les utilisateurs.
             </p>
 
-            <h3 class="pt-10">Supabase</h3>
+            <h3 class="pt-10">Bases de données</h3>
             <p class="pt-2">
-                J'ai également pu faire quelques affiches et cartes postales, que ce sois pour méxercer, ou lier avec le BUT. <br>
-                Ces projets m'ont aider à approfondir ma créativité et mes compétences en design graphiques.
-            </p>
-
-            <h3 class="pt-10">Logos</h3>
-            <p class="pt-2">
-                J'ai également pu faire quelques affiches et cartes postales, que ce sois pour méxercer, ou lier avec le BUT. <br>
-                Ces projets m'ont aider à approfondir ma créativité et mes compétences en design graphiques.
+                Durant ces deux années en BUT MMI, j'ai appris à utiliser Firebase et Supabase pour apporter à mes projets un Back-End. <br>
+                Les fonctionnalités telles que l'authentification des utilisateurs, la gestion des données en temps réel et la sauvegarde automatique des données facilitent la mise en place de projets complets. <br>
+                Cela permet de développer des applications Web et mobiles interactives, fiables et efficaces pour les utilisateurs.
             </p>
 
             <div class="text-center">
                 <Bouton class="mt-10">
-                    <router-link to="/Design">
+                    <router-link to="/Developpement">
                         Voir plus
                     </router-link>
                 </Bouton>
