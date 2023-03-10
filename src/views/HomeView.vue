@@ -140,29 +140,36 @@ window.addEventListener('scroll', function() {
     <section class="bg-clearbrown px-8 py-14 sm:p-20 mt-20">
         <h2>Logiciels</h2>
         <div class="">
-            <div class="pt-10 grid grid-cols-5">
-                <img src="/public/Logiciels/design/figma.png" class="w-auto h-20 mr-10" alt="">
-                <img src="/public/Logiciels/design/Audition.svg.png" class="w-20 h-auto mr-10" alt="">
-                <img src="/public/Logiciels/design/Illustrator.png" class="w-20 h-auto mr-10" alt="">
-                <img src="/public/Logiciels/design/PremierePro.svg.png" class="w-20 h-auto mr-10" alt="">
-                <img src="/public/Logiciels/design/InDesign.png" class="w-20 h-auto mr-10" alt="">
-            </div>
+            <router-link to="/Design">
+                <div class="pt-10 grid grid-cols-5">
+                    <img src="/public/Logiciels/design/figma.png" class="w-auto h-20 mr-10 hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="">
+                    <img src="/public/Logiciels/design/Audition.svg.png" class="w-20 h-auto mr-10 hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="">
+                    <img src="/public/Logiciels/design/Illustrator.png" class="w-20 h-auto mr-10 hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="">
+                    <img src="/public/Logiciels/design/PremierePro.svg.png" class="w-20 h-auto mr-10 hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="">
+                    <img src="/public/Logiciels/design/InDesign.png" class="w-20 h-auto mr-10 hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="">
+                </div>
+            </router-link>
+
+            <router-link to="/Developpement">
+                <div class="pt-20 grid grid-cols-5">
+                    <img src="/public/Logiciels/developpement/HTML5.svg.png" class="w-auto h-20 mr-10 hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="">
+                    <img src="/public/Logiciels/developpement/CSS3.svg.png" class="w-auto h-20 mr-10 hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="">
+                    <img src="/public/Logiciels/developpement/JavaScript.png" class="w-auto h-20 mr-10 hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="">
+                    <img src="/public/Logiciels/developpement/Tailwind.png" class="w-auto h-20 mr-10 hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="">
+                    <img src="/public/Logiciels/developpement/Vuejs.svg.png" class="w-auto h-20 mr-10 hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="">
+                </div>
+            </router-link>
+
+            <router-link to="/Developpement">
+                <div class="pt-20 grid grid-cols-5">
+                    <img src="/public/Logiciels/developpement/Wordpress.png" class="w-auto h-20 mr-10 hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="">
+                    <img src="/public/Logiciels/developpement/Openstreetmap.svg.png" class="w-auto h-20 mr-10 hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="">
+                    <img src="/public/Logiciels/developpement/firebase.png" class="w-auto h-20 mr-10 hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="">
+                    <img src="/public/Logiciels/developpement/supabase.png" class="w-auto h-20 mr-10 hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="">
+                    <img src="/public/Logiciels/developpement/herou.jpg" class="w-auto h-20 mr-10 rounded-sm hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="">
+                </div>
+            </router-link>
     
-            <div class="pt-20 grid grid-cols-5">
-                <img src="/public/Logiciels/developpement/HTML5.svg.png" class="w-auto h-20 mr-10" alt="">
-                <img src="/public/Logiciels/developpement/CSS3.svg.png" class="w-auto h-20 mr-10" alt="">
-                <img src="/public/Logiciels/developpement/JavaScript.png" class="w-auto h-20 mr-10" alt="">
-                <img src="/public/Logiciels/developpement/Tailwind.png" class="w-auto h-20 mr-10" alt="">
-                <img src="/public/Logiciels/developpement/Vuejs.svg.png" class="w-auto h-20 mr-10" alt="">
-            </div>
-    
-            <div class="pt-20 grid grid-cols-5">
-                <img src="/public/Logiciels/developpement/Wordpress.png" class="w-auto h-20 mr-10" alt="">
-                <img src="/public/Logiciels/developpement/Openstreetmap.svg.png" class="w-auto h-20 mr-10" alt="">
-                <img src="/public/Logiciels/developpement/firebase.png" class="w-auto h-20 mr-10" alt="">
-                <img src="/public/Logiciels/developpement/supabase.png" class="w-auto h-20 mr-10" alt="">
-                <img src="/public/Logiciels/developpement/herou.jpg" class="w-auto h-20 mr-10 rounded-sm" alt="">
-            </div>
 
         </div>
 
