@@ -20,7 +20,6 @@ window.addEventListener('scroll', function() {
         <div class="animation">
             <svg xmlns="http://www.w3.org/2000/svg" width="5em" height="5em" viewBox="0 0 1024 1024"><path fill="#F5F2EC" d="M831.872 340.864L512 652.672L192.128 340.864a30.592 30.592 0 0 0-42.752 0a29.12 29.12 0 0 0 0 41.6L489.664 714.24a32 32 0 0 0 44.672 0l340.288-331.712a29.12 29.12 0 0 0 0-41.728a30.592 30.592 0 0 0-42.752 0z"></path></svg>
         </div>
-
         
     </div>
 
@@ -68,7 +67,7 @@ window.addEventListener('scroll', function() {
 
 
     <section>
-        <div class="bg-clearbrown px-8 py-14 sm:p-20 grid grid-cols-2">
+        <div class="bg-clearbrown px-8 py-14 sm:p-20 grid grid-cols-1 gap-6 sm:gap-12 sm:grid-cols-2">
             <div>
                 <h2>Designs</h2>
     
@@ -100,11 +99,10 @@ window.addEventListener('scroll', function() {
                 </div>
             </div>
 
-            <div class="flex-col sm:flex-row">
-                <img src="/public/images/Design/Bonyfest.png" class="w-auto h-60" alt="">
-                <img src="/public/images/Design/Citadelle.svg" class="w-auto h-60" alt="">
+            <div class="flex flex-col items-center justify-center">
+                <img src="/public/images/Design/Bonyfest.png" class="w-auto h-60 " alt="">
+                <img src="/public/images/Design/Citadelle.svg" class="w-auto h-60 mt-10" alt="">
             </div>
-
         </div>
     </section>
 
