@@ -18,11 +18,19 @@
     }
 
     h4 {
-        @apply font-raleway font-normal text-lg
+        @apply font-raleway font-semibold text-xl
+    }
+
+    h5 {
+        @apply font-raleway font-semibold text-lg
     }
 
     p {
         @apply font-raleway font-normal text-lg
+    }
+
+    legend {
+        @apply font-raleway font-normal text-sm
     }
 
 }
