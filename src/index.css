@@ -30,7 +30,7 @@
     }
 
     legend {
-        @apply font-raleway font-normal text-sm
+        @apply font-raleway font-normal text-base
     }
 
 }
