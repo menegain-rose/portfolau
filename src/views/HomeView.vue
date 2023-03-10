@@ -102,7 +102,7 @@ window.addEventListener('scroll', function() {
             </div>
 
             <div class="flex flex-col items-center justify-center">
-                <img src="/public/images/Design/Bonyfest.png" class="w-auto h-60 " alt="">
+                <img src="/public/logo/naknowledge.png" class="w-auto h-60 " alt="">
                 <img src="/public/images/Design/Citadelle.svg" class="w-auto h-60 mt-10" alt="">
             </div>
         </div>
