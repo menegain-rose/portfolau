@@ -8,7 +8,7 @@ import Bouton from "@/components/bouton.vue"
 <section class="pt-8 sm:pt-20">
     <div class="flex justify-between">
         <h2 class="px-4 sm:px-20 text-center sm:text-left">Designs</h2>
-        <img src="/public/images/Design/PlantesTombantesLongues.svg" class="rotate-90 w-1/5" alt="">
+        <img src="/public/images/Design/PlantesTombantesLongues.svg" class="rotate-90 w-[200px] -my-[1200px] hidden sm:block" alt="">
     </div>
     <div>
         <h3 class="my-6 sm:my-10 mx-4 sm:mx-20 text-center sm:text-left">
