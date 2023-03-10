@@ -39,7 +39,9 @@ window.addEventListener('scroll', function() {
                 Si vous souhaitez discuter de projets futurs et me poser des questions, je vous invite à me contacter sur mes différents réseaux ou par mail..
             </p>
             <div class="flex mt-2 sm:mt-5">
-                <img src="/public/Icons/Discord.svg" class="w-8 mr-5" alt="">
+                <a href="https://github.com/menegain-rose">
+                    <img src="/public/Icons/Github.svg" class="w-8 mr-5" alt="">
+                </a>
                 <a href="https://www.instagram.com/eiku_s/">
                     <img src="/public/Icons/Instagram.svg" class="w-8 mr-5" alt="">
                 </a>
@@ -137,15 +139,32 @@ window.addEventListener('scroll', function() {
 
     <section class="bg-clearbrown px-8 py-14 sm:p-20 mt-20">
         <h2>Logiciels</h2>
-        <div class="pt-5">
-            <img src="/public/Logiciels/figma.png" class="w-auto h-20" alt="">
-            <img src="/public/Logiciels/Audition.svg.png" class="w-20 h-auto" alt="">
-            <img src="/public/Logiciels/Illustrator.png" class="w-40 h-auto" alt="">
-            <img src="/public/Logiciels/PremierePro.svg.png" class="w-20 h-auto" alt="">
-            <img src="/public/Logiciels/InDesign.png" class="w-20 h-auto" alt="">
+        <div class="">
+            <div class="pt-5 flex">
+                <img src="/public/Logiciels/design/figma.png" class="w-auto h-20 mr-10" alt="">
+                <img src="/public/Logiciels/design/Audition.svg.png" class="w-20 h-auto mr-10" alt="">
+                <img src="/public/Logiciels/design/Illustrator.png" class="w-20 h-auto mr-10" alt="">
+                <img src="/public/Logiciels/design/PremierePro.svg.png" class="w-20 h-auto mr-10" alt="">
+                <img src="/public/Logiciels/design/InDesign.png" class="w-20 h-auto mr-10" alt="">
+            </div>
+    
+            <div class="pt-10 flex">
+                <img src="/public/Logiciels/developpement/HTML5.svg.png" class="w-auto h-20 mr-10" alt="">
+                <img src="/public/Logiciels/developpement/CSS3.svg.png" class="w-auto h-20 mr-10" alt="">
+                <img src="/public/Logiciels/developpement/JavaScript.png" class="w-auto h-20 mr-10" alt="">
+                <img src="/public/Logiciels/developpement/Tailwind.png" class="w-auto h-20 mr-10" alt="">
+                <img src="/public/Logiciels/developpement/Vuejs.svg.png" class="w-auto h-20 mr-10" alt="">
+            </div>
+    
+            <div class="pt-10 flex">
+                <img src="/public/Logiciels/developpement/Wordpress.png" class="w-auto h-20 mr-10" alt="">
+                <img src="/public/Logiciels/developpement/Openstreetmap.svg.png" class="w-auto h-20 mr-10" alt="">
+                <img src="/public/Logiciels/developpement/firebase.png" class="w-auto h-20 mr-10" alt="">
+                <img src="/public/Logiciels/developpement/supabase.png" class="w-auto h-20 mr-10" alt="">
+                <img src="/public/Logiciels/developpement/herou.jpg" class="w-auto h-20 mr-10 rounded-sm" alt="">
+            </div>
+
         </div>
-
-
 
     </section>
 
