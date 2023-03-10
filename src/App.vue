@@ -11,35 +11,35 @@ import { RouterLink, RouterView } from "vue-router";
     </router-link>
   </div>
 
+  <nav class="flex justify-end items-center">
+    <ul class="flex">
+      <li class="mr-10"> 
+        <router-link to="/APropos">
+          <h3>
+            A PROPOS
+          </h3>
+        </router-link>
+      </li>
+      <li class="mr-10"> 
+        <router-link to="/Design">
+          <h3>
+            Design
+          </h3>
+        </router-link>
+      </li>
+      <li class="mr-10"> 
+        <router-link to="/Developpement">
+          <h3>
+            Développement
+          </h3>
+        </router-link>
+      </li>
+    </ul>
+  </nav>
 
-<nav>
-  <ul class="flex">
-    <li class=""> 
-      <router-link to="/APropos">
-        <h3>
-          A PROPOS
-        </h3>
-      </router-link>
-    </li>
-    <li class=""> 
-      <router-link to="/Design">
-        <h3>
-          Design
-        </h3>
-      </router-link>
-    </li>
-    <li class=""> 
-      <router-link to="/Developpement">
-        <h3>
-          Développement
-        </h3>
-      </router-link>
-    </li>
-  </ul>
-</nav>
+</header>
 
 
-  </header>
 <main class="bg-whiteb">
   <RouterView />
 </main>
