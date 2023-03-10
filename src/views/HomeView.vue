@@ -140,7 +140,7 @@ window.addEventListener('scroll', function() {
     <section class="bg-clearbrown px-8 py-14 sm:p-20 mt-20">
         <h2>Logiciels</h2>
         <div class="">
-            <div class="pt-5 flex">
+            <div class="pt-10 grid grid-cols-5">
                 <img src="/public/Logiciels/design/figma.png" class="w-auto h-20 mr-10" alt="">
                 <img src="/public/Logiciels/design/Audition.svg.png" class="w-20 h-auto mr-10" alt="">
                 <img src="/public/Logiciels/design/Illustrator.png" class="w-20 h-auto mr-10" alt="">
@@ -148,7 +148,7 @@ window.addEventListener('scroll', function() {
                 <img src="/public/Logiciels/design/InDesign.png" class="w-20 h-auto mr-10" alt="">
             </div>
     
-            <div class="pt-10 flex">
+            <div class="pt-20 grid grid-cols-5">
                 <img src="/public/Logiciels/developpement/HTML5.svg.png" class="w-auto h-20 mr-10" alt="">
                 <img src="/public/Logiciels/developpement/CSS3.svg.png" class="w-auto h-20 mr-10" alt="">
                 <img src="/public/Logiciels/developpement/JavaScript.png" class="w-auto h-20 mr-10" alt="">
@@ -156,7 +156,7 @@ window.addEventListener('scroll', function() {
                 <img src="/public/Logiciels/developpement/Vuejs.svg.png" class="w-auto h-20 mr-10" alt="">
             </div>
     
-            <div class="pt-10 flex">
+            <div class="pt-20 grid grid-cols-5">
                 <img src="/public/Logiciels/developpement/Wordpress.png" class="w-auto h-20 mr-10" alt="">
                 <img src="/public/Logiciels/developpement/Openstreetmap.svg.png" class="w-auto h-20 mr-10" alt="">
                 <img src="/public/Logiciels/developpement/firebase.png" class="w-auto h-20 mr-10" alt="">
