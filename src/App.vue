@@ -44,9 +44,28 @@ import { RouterLink, RouterView } from "vue-router";
   <RouterView />
 </main>
 
-<footer>
+<footer class=" p-14">
+  <div class="flex justify-center">
+    <router-link to="/">
+      <img src="/public/logo/logo_noir.svg" class="w-20 h-auto" alt="">
+    </router-link>
+  </div>
+
+  <div class="flex mt-2 sm:mt-5 items-center justify-center">
+      <a href="https://github.com/menegain-rose">
+          <img src="/public/Icons/Github.svg" class="w-8 mr-5 " alt="">
+      </a>
+      <a href="https://www.instagram.com/eiku_s/">
+          <img src="/public/Icons/Instagram.svg" class="w-8 mr-5" alt="">
+      </a>
+      <a href="https://www.linkedin.com/in/rose-menegain/">
+          <img src="/public/Icons/Linkedin.svg" class="w-8 mr-5" alt="">
+      </a>
+  </div>
 
 </footer>
+
+
 </template>
 
 
