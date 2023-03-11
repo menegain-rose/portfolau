@@ -40,13 +40,13 @@ window.addEventListener('scroll', function() {
             </p>
             <div class="flex mt-2 sm:mt-5">
                 <a href="https://github.com/menegain-rose">
-                    <img src="/public/Icons/Github.svg" class="w-8 mr-5" alt="">
+                    <img src="/public/Icons/Github.svg" class="w-8 mr-5 hover:bg-whiteb hover:bg-opacity-75 hover:rounded-sm hover:p-1" alt="">
                 </a>
                 <a href="https://www.instagram.com/eiku_s/">
-                    <img src="/public/Icons/Instagram.svg" class="w-8 mr-5" alt="">
+                    <img src="/public/Icons/Instagram.svg" class="w-8 mr-5 hover:bg-whiteb hover:bg-opacity-75 hover:rounded-sm hover:p-1" alt="">
                 </a>
                 <a href="https://www.linkedin.com/in/rose-menegain/">
-                    <img src="/public/Icons/Linkedin.svg" class="w-8 mr-5" alt="">
+                    <img src="/public/Icons/Linkedin.svg" class="w-8 mr-5 hover:bg-whiteb hover:bg-opacity-75 hover:rounded-sm hover:p-1" alt="">
                 </a>
             </div>
         </div>
