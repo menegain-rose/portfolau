@@ -17,101 +17,65 @@ import Bouton from "@/components/bouton.vue"
             <div class="sm:grid sm:grid-cols-2">
                 <div class="px-4 sm:px-20">
                     <div class="flex justify-center items-center flex-col mt-6 sm:mt-10">
-                        <a href="https://www.figma.com/proto/wd8j2PMyyL3Po6uiISYypJ/maquette-naknowledge?node-id=932%3A3515&scaling=scale-down&page-id=1%3A4&starting-point-node-id=932%3A3515&show-proto-sidebar=1">
-                            <img src="/public/images/Design/Naknowledge02.png" class="h-64 sm:h-96 w-auto" alt="">
+                        <a href="/public/SAE303.zip"  @click="downloadZip">
+                            <img src="/public/images/Développement/Openstreetmap.png" class="h-auto w-2/3 sm:w-auto" alt="">
                         </a>
                     </div>
                     <div class="flex justify-center items-center flex-col mt-6 sm:mt-10">
-                        <img src="/public/images/Design/MoodboardNkwg.png" class="h-auto w-2/3 sm:w-auto rounded-lg" alt="">
-                        <img src="/public/logo/naknowledge.png" class="h-auto w-2/3 sm:w-auto rounded-lg mt-6 sm:mt-10" alt="">
+                        <img src="/public/images/Développement/Graph.png" class="h-auto w-2/3 sm:w-auto " alt="">
                     </div>
                     <div class="text-center mt-6 sm:mt-10">
                         <Bouton class="my-4 sm:my-10">
-                            <a href="https://www.figma.com/proto/wd8j2PMyyL3Po6uiISYypJ/maquette-naknowledge?node-id=932%3A3515&scaling=scale-down&page-id=1%3A4&starting-point-node-id=932%3A3515&show-proto-sidebar=1">
-                            Découvrir
+                            <a href="/public/SAE303.zip"  @click="downloadZip">
+                            Télécharger le projet
                             </a>
                         </Bouton>
-                    </div>
+                        </div>
                 </div>
                     <div class="bg-clearbeige p-20">
                         <h4 class="mb-5">
-                            Naknowledge
+                            SAE303
                         </h4>
                         <p>
-                            Naknowledge est un site web destiné à l'apprentissage gratuit et ludique pour les étudiants. <br> 
-                            Elle propose diverse nano-leçons sur un ensemble de sujets variés. <br> 
-                            Ces leçons sont consultables à n'importe quel moment et peuvent être créé par l'utilisateur et déposer sur le site. <br>
-                            Ces nano-leçons ont pour vocations de présenter un savoir/savoir-faire qui peuvent être obtenu et assimilé en quelques minutes, <br>
-                            d'où le mot “nano” signifiant “petit”. <br>
-                            Étant donné que Naknowledge propose du contenu ludique, <br> 
-                            les nano leçons sontaccompagnées de liens vers d'autres nano leçons corrélées et similaires aux leçons précédemment étudiés.
+                            Durant cette SAE, j'ai pu mettre en pratique les compétences que j'avais acquises durant les mois précédents. <br>
+                            Bien que j'étais seule pour cette SAE, j'ai pu profiter de l'occasion pour renforcer mes compétences en autonomie et en organisation. <br> 
+                            Puisque j'ai dù planifier et gérer chaque étape sur trois jours, en prenant en compte les priorités des étapes. <br>
+                            En travaillant seule, j'ai également pu me concentrer sur mes propres points faibles et les améliorer. <br>
                         </p>
-                        <h5 class="mt-5">
-                            Acteurs
-                        </h5>
-                        <div class="flex">
-                            <p class="underline mr-2">
-                                Commanditaires :
-                            </p>
-                            <p>
-                                Pascal Chatonnay
-                            </p>
-                        </div>
-                        <div class="flex">
-                            <p class="underline mr-2">
-                            Tuteur :
-                            </p>
-                            <p>
-                                Lydia Dubois
-                            </p>
-                        </div>
-                        <div class="flex">
-                            <p class="underline mr-2">
-                            Prestataires :
-                            </p>
-                            <p>
-                                Mélina BOUCHELLEGHEM, David SARKISSIAN, <br>
-                                Aurélie RUNSER, et moi même.
-                            </p>
-                        </div>
 
                         <h5 class="mt-5">
                             Dates
                         </h5>
                         <p>
-                            06/09/2022 → 17/10/2022 → 17/01/2023
+                            07/11/2022 → 09/11/2022 
                         </p>
                         <h5 class="mt-5">
-                            Objectifs
+                            Sujet
                         </h5>
                         <p>
-                            - Créer un site web ergonomique et attractif pour l'apprentissage et le partage simple de nano-leçons . <br>
-                            - Complètement opérationnelle. <br>
-                            - Obtenir une vingtaine d'abonnement sur chaque réseau social. <br>
-                            - Quelques réactions des personnes sur les réseaux sociaux (like/ partage/commentaires). <br>
-                            - Proposer une cinquantaine (au moins) de nano-leçon au lancement du site. <br>
-                            - Rendre le site “autonome” en contenus, alimenté par les utilisateurs eux-mêmes.
+                            Chaque étudiant doit sélectionner une ou plusieurs thématiques, parmi celles proposées. <br>
+                            Une thématique de géographie est commune à l'ensemble des autres, permettant si besoin de créer une cartographie, ou une représentation géographique par le biais d'un graphe. <br>
+                            Thématique géographique, Thématique énergie , Thématique culture et Thématique enseignements supérieur. <br>
+                            Choisissez un graphe ou plusieurs pour expliquer votre représentation, et quel intérêt elle apporte en termes de data visualisation. <br>
+                            Décrire textuellement les données que vous utilisez et que vous affichez. <br> 
+                            L'intérêt d'avoir sélectionné celles-ci. Une conclusion de votre représentation.
                         </p>
                         <h5 class="mt-5">
                             Outils
                         </h5>
                         <p>
-                            HTML5, CSS3, Tailwind, Javascript, et PHP. <br>
-                            Figma, Première Pro, et Illustrator. <br>
-                            Visual Studio Code, Github, FileZilla, Wordpress, et Infomaniak.
-
+                            HTML5, CSS3, Tailwind, Vuejs.
                         </p>
-                        <h5 class="mt-5">
-                            Mon rôle
-                        </h5>
-                        <p>
-                            Mon rôle a été de créer l'aspect visuel du site (logo, intentions graphiques, harmonie colorée..). <br> 
-                            J'ai dû prêter attention à la maquette graphique en la rendant intuitive et ergonomique pour l'utilisateur.
-                        </p>
-                        <div class="flex mt-2 sm:mt-5">
-                            <a href="https://www.instagram.com/naknowledge/">
-                                <img src="/public/Icons/Instagram.svg" class="w-8 mr-5 hover:bg-whiteb hover:bg-opacity-75 hover:rounded-sm hover:p-1" alt="">
+                        <div class="flex">
+                            <p>
+                                OpenStreetMap, et les API ont été récupéré sur le site :  
+                            </p>
+                            <a href="https://geo.api.gouv.fr" class="underline ml-1">
+                                <p>
+                                    geo.api.gouv
+                                </p>
                             </a>
+
                         </div>
                     </div>
                     
@@ -123,7 +87,7 @@ import Bouton from "@/components/bouton.vue"
     <section class="pt-8 sm:pt-20">
         <div>
             <h3 class="my-6 sm:my-10 px-4 sm:px-20 py-2 sm:py-4 text-center sm:text-left bg-cleargreen">
-                Maquette TikTak
+                TikTak
             </h3>
             <div class="sm:grid sm:grid-cols-2">
                     <div class="bg-clearbeige p-20">
@@ -254,7 +218,7 @@ import Bouton from "@/components/bouton.vue"
                         </p>
                         <div class="text-center mt-6 sm:mt-10">
                         <Bouton class="my-4 sm:my-10">
-                            <a href="/public/images/Design/Cassandre_RoseMENEGAIN_A2.svg" download id="download-btn">
+                            <a href="/public/SAE303.zip"  @click="downloadZip">
                             Télécharger l'affiche
                             </a>
                         </Bouton>
@@ -517,7 +481,20 @@ export default {
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
-        }
+        },
+
+        downloadZip() {
+      fetch('https://example.com/file.zip')
+        .then(response => response.blob())
+        .then(blob => {
+          const url = window.URL.createObjectURL(new Blob([blob]));
+          const link = document.createElement('a');
+          link.href = url;
+          link.setAttribute('download', 'file.zip');
+          document.body.appendChild(link);
+          link.click();
+        });
+    }
     },
     mounted() {
         const downloadBtn = document.getElementById('download-btn');
