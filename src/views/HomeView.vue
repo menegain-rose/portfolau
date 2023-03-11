@@ -88,8 +88,8 @@ window.addEventListener('scroll', function() {
     
                 <h3 class="pt-10">Logos</h3>
                 <p class="pt-2">
-                    J'ai également pu faire quelques affiches et cartes postales, que ce sois pour méxercer, ou lier avec le BUT. <br>
-                    Ces projets m'ont aider à approfondir ma créativité et mes compétences en design graphiques.
+                    Pour l'un de nos projets durant mes études, j'ai été chargé de penser <br> 
+                    et de réaliser le logo en respectant les différents critères et choix de mon commenditaire
                 </p>
     
                 <div class="text-center">
