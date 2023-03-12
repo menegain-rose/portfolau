@@ -87,7 +87,7 @@ import Bouton from "@/components/bouton.vue"
     <section class="pt-8 sm:pt-20">
         <div>
             <h3 class="my-6 sm:my-10 px-4 sm:px-20 py-2 sm:py-4 text-center sm:text-left bg-cleargreen">
-                TikTak
+                TikTak et son Back-End par Supabase
             </h3>
             <div class="sm:grid sm:grid-cols-2">
                     <div class="bg-clearbeige p-20">
@@ -96,23 +96,10 @@ import Bouton from "@/components/bouton.vue"
                         </h4>
                         <p>
                             TikTak est un site que nous avons dû imaginer et confectionné durant une SAE en BUT MMI. <br> 
-                            Le concept état donc de créer un configurateur de produit pour une montre connectée. <br>
-                            Le site devait être pensé pour le marché des 25-50 ans, unisexe. <br>
+                            Le concept était donc de créer un configurateur de produit pour une montre connectée. <br>
                             L'objectif était d'impliquer l'utilisateur dans la création de son modèle et de lui offrir une expérience utilisateur originale. <br>
-                            Le nom de la marque de montre est TiK•TaK, sa philosophie est un style raffiné, minimaliste et épuré. <br>
+                            Et donc nous devions créer 
                         </p>
-
-                        <h5 class="mt-5">
-                            Acteurs
-                        </h5>
-                        <div class="flex">
-                            <p class="underline mr-2">
-                            Prestataires :
-                            </p>
-                            <p>
-                                Moi même
-                            </p>
-                        </div>
                         <h5 class="mt-5">
                             Dates
                         </h5>
@@ -138,22 +125,25 @@ import Bouton from "@/components/bouton.vue"
                             Mon rôle
                         </h5>
                         <p>
-                            En 4 jours, répondre aux demandes, et rendre le site. <br>
-                            Mais au niveau design, le plus important était donc de transmettre la philosophie de la marque à travers son design.
+                            En quatre jours, j'ai répondu aux demandes en mettant en place un Back-End avec Supabase.<br>
+                            J'ai alors intégré une fonctionnalité permettant à l'utilisateur de se connecter avec son compte Google ou Facebook <br>
+                            De plus, j'ai développé une fonctionnalité de prévisualisation qui permet à l'utilisateur de personnaliser sa montre selon ses préférences avant de la sauvegarder. <br>
+                            Et pour finir, une fois que l'utilisateur a sauvegardé sa personnalisation, il peut accéder à tous ses modèles sur la page "Vos modèles". <br>                      
+                            Au final, je suis satisfaite de ce que j'ai réalisé en si peu de temps, et c'est un projet que je pourrais réutiliser plus tard pour m'améliorer.
                         </p>
                     </div>
                     <div class="px-4 sm:px-20">
                     <div class="flex justify-center items-center flex-col mt-6 sm:mt-10">
-                        <a href="https://www.figma.com/proto/YHhsoBp3XGR4SSKTrYiqKB/SAE301?node-id=6%3A4&scaling=scale-down-width&page-id=6%3A3&starting-point-node-id=29%3A544">
+                        <a href="https://dazzling-lebkuchen-42612d.netlify.app/">
                             <img src="/public/images/Design/TikTak.png" class="h-64 sm:h-96 w-auto" alt="">
                         </a>
                     </div>
                     <div class="flex justify-center items-center flex-col mt-6 sm:mt-10">
-                        <img src="/public/images/Design/GDSTikTak.png" class="h-auto w-2/3 sm:w-auto rounded-lg" alt="">
+                        <img src="/public/images/Développement/PageConnect°.png" class="h-64 sm:h-96 w-auto" alt="">
                     </div>
                     <div class="text-center mt-6 sm:mt-10">
                         <Bouton class="my-4 sm:my-10">
-                            <a href="https://www.figma.com/proto/YHhsoBp3XGR4SSKTrYiqKB/SAE301?node-id=6%3A4&scaling=scale-down-width&page-id=6%3A3&starting-point-node-id=29%3A544">
+                            <a href="https://dazzling-lebkuchen-42612d.netlify.app/">
                             Découvrir
                             </a>
                         </Bouton>
@@ -165,90 +155,45 @@ import Bouton from "@/components/bouton.vue"
 
     </section>
 
-
     <section class="pt-8 sm:pt-20">
-        <div class="flex justify-between">
-            <h2 class="px-4 sm:px-20 text-center sm:text-left">Designs Affiches</h2>
-            <img src="/public/images/Design/PlantesTombantesLongues.svg" class="rotate-90 w-[200px] -my-[1200px] hidden sm:block" alt="">
-        </div>
         <div>
             <h3 class="my-6 sm:my-10 px-4 sm:px-20 py-2 sm:py-4 text-center sm:text-left bg-cleargreen">
-                Affiche style Cassandre
+                Réarts et son Back-End par Firebase
             </h3>
             <div class="sm:grid sm:grid-cols-2">
                 <div class="px-4 sm:px-20">
                     <div class="flex justify-center items-center flex-col mt-6 sm:mt-10">
-                            <img src="/public/images/Design/Cassandre_RoseMENEGAIN_A2.svg" class="h-64 sm:h-96 w-auto" alt="">
+                            <img src="/public/images/Développement/Réarts.png" class="h-64 sm:h-96 w-auto" alt="">
                     </div>
-                    <div class="flex justify-center items-center flex-col mt-6 sm:mt-10">
-                        <img src="/public/images/Design/InspirationCassandre.png" class="h-auto w-2/3 sm:w-auto rounded-lg mb-10" alt="">
-                    </div>
-
-                </div>
-                    <div class="bg-clearbeige p-20">
-                        <h4 class="mb-5">
-                            Cassandre
-                        </h4>
-                        <p>
-                            Ce travail nous à été donné durant l'un de nos cours en BUT MMI. <br>
-                            J'ai beaucoup aprécié le faire, puisque c'est un travail où l'on doit s'adapter au style de quelqu'un d'autre, <br> 
-                            et je trouves ça très enrichissant puisque nous avions dù feuilleté différents travaux de Cassandre.
-
-                        </p>
-                        <h5 class="mt-5">
-                            Dates
-                        </h5>
-                        <p>
-                            28/11/2022 → 05/12/2022
-                        </p>
-                        <h5 class="mt-5">
-                            Sujet
-                        </h5>
-                        <p>
-                            Réalisez une analyse graphique d'une affiche de Cassandre. <br>
-                            Analysez la composition, les lignes de force, le cadrage, le point de vue, le sens de lecture, le rapport texte/image,... <br>
-                            La mise en page doit comporter une illustration avec des dégradés et du texte.
-                        </p>
-                        <h5 class="mt-5">
-                            Outils
-                        </h5>
-                        <p>
-                            Illustrator
-
-                        </p>
-                        <div class="text-center mt-6 sm:mt-10">
-                        <Bouton class="my-4 sm:my-10">
-                            <a href="/public/SAE303.zip"  @click="downloadZip">
-                            Télécharger l'affiche
-                            </a>
-                        </Bouton>
+                    <div class="flex justify-center items-center mt-6 sm:mt-10">
+                        <div class="flex flex-col items-center mr-6">
+                            <img src="/public/images/Développement/RéartsConnect°.png" class="h-64 sm:h-96 w-auto mb-10" alt="">
+                        </div>
+                        <div class="flex flex-col items-center">
+                            <img src="/public/images/Développement/RéartsArtiste.png" class="h-64 sm:h-96 w-auto" alt="">
                         </div>
                     </div>
-                    
+                    <div class="text-center mt-6 sm:mt-10">
+                        <Bouton class="my-4 sm:my-10">
+                            <a href="https://rearts.leopold-ohnimus.fr/">
+                            Découvrir
+                            </a>
+                        </Bouton>
+                    </div>
+
                 </div>
-            </div>
-
-    </section>
-
-    <section class="pt-8 sm:pt-20">
-        <div>
-            <h3 class="my-6 sm:my-10 px-4 sm:px-20 py-2 sm:py-4 text-center sm:text-left bg-cleargreen">
-                Affiche Exposition Universelle 2025
-            </h3>
-            <div class="sm:grid sm:grid-cols-2">
                     <div class="bg-clearbeige p-20">
                         <h4 class="mb-5">
-                            Exposition Universelle 2025 d'
+                            Réarts
                         </h4>
                         <p>
-                            Pour cette affiche, nous avions fait le choix d'exprimé simplement par un “Accessoire”, 
-                            qu'en 2025  l'humanité se serait tellement perfectionnée, à un point où l'homme est devenu une machine/robo. <br> 
-                            Le style de l'affiche est un style épuré et minimaliste. <br> 
-                            C'est le style des affiches d'Apple, elle suscite le luxe, la richesse et l'aspect unique de cet objet. <br> 
-                            L'Accessoire n'est pas un simple objet mais un cœur, on comprend bien que le cœur est la partie la plus importante du corps humain. <br> 
-                            Nous montrons donc que l'humain est devenu une machine, de l'extérieur jusqu'à l'intérieur de lui-même.
+                            Le projet consiste à permettre aux parents de donner vie aux dessins de leurs enfants en les faisant reproduire par des artistes talentueux. <br> 
+                            Il suffit de le prendre en photo et de l'envoyer à un artiste de Réarts. <br> 
+                            Grâce à cette photo, l'artiste pourra reproduire le dessin dans son propre style artistique, pour créer une version 2.0 du dessin de l'enfant. <br>
+                            Nous avons donc mis en place un Back-End avec Firebase pour permettre aux utilisateurs de se connecter avec une adresse mail, <br>
+                            mais également de contacter les artistes, puisque il y a également une messagerie d'installé. <br>
+                            Ce projet est mobile first.
                         </p>
-
                         <h5 class="mt-5">
                             Acteurs
                         </h5>
@@ -257,217 +202,39 @@ import Bouton from "@/components/bouton.vue"
                             Prestataires :
                             </p>
                             <p>
-                                Baptiste Rognon et moi même.
+                                CANTE Maxence, OHNIMUS Léopold, et moi même.
                             </p>
                         </div>
+
                         <h5 class="mt-5">
                             Dates
                         </h5>
                         <p>
-                            07/12/2022 → 22/12/2022
-                        </p>
-                        <h5 class="mt-5">
-                            Sujet
-                        </h5>
-                        <p>
-                            Le thème de l'Expo 2025 est Concevoir la Société du Futur, Imaginer Notre Vie de Demain. <br> 
-                            Il invite les visiteurs à réfléchir à la vie qu'ils souhaitent mener et favorise la création d'une société durable. <br>
-                            Le thème de l'exposition universelle d'Osaka a été sélectionné pour répondre aux constantes évolutions sociales. <br> 
-                            Le développement de nouvelles technologies telles que l'IA et la biotechnologie aura un impact significatif sur l'humanité, en allongeant l'espérance de vie, par exemple. <br>
-                            CONNECTER DES VIES <br>
-                            Ce sous-thème met l'accent sur l'implication et la création de communautés. <br>
-                            INSPIRER DES VIES <br>
-                            L'amélioration de la vie des individus et le développement de leur potentiel sont au cœur de ce sous-thème. <br> 
-                            Les sujets abordés incluent la santé et le mode de vie, ainsi que l'utilisation de l'IA et de la robotique. <br>
-                            SAUVER DES VIES <br>
-                            Ce sous-thème se concentre sur la protection des vies. <br> 
-                            Il traitera de questions telles que la lutte contre les maladies infectieuses et la préparation aux catastrophes.
+                            10/02/2022 → 09/06/2022
                         </p>
                         <h5 class="mt-5">
                             Outils
                         </h5>
                         <p>
-                            Illustrator
+                            HTML5, CSS3, Tailwind, Javascript. <br>
+                            Figma, et Illustrator. <br>
+                            Visual Studio Code, Github, Firebase, et Infomaniak.
 
                         </p>
+                        <h5 class="mt-5">
+                            Mon rôle
+                        </h5>
+                        <p>
+                            Mon rôle a été de créer l'aspect visuel du site (logo, intentions graphiques, harmonie colorée..). <br> 
+                            Mais également de créé la maquette Figma et une grande partie du développement Front-End.
+                        </p>
                     </div>
-                    <div class="px-4 sm:px-20">
-                    <div class="flex justify-center items-center flex-col mt-6 sm:mt-10">
-                        <a href="https://www.figma.com/proto/YHhsoBp3XGR4SSKTrYiqKB/SAE301?node-id=6%3A4&scaling=scale-down-width&page-id=6%3A3&starting-point-node-id=29%3A544">
-                            <img src="/public/images/Design/BaptisteROGNON-RoseMENEGAIN-AfficheOsaka-1.png" class="h-64 sm:h-96 w-auto" alt="">
-                        </a>
-                    </div>
-                    <div class="flex justify-center items-center flex-col mt-6 sm:mt-10">
-                        <img src="/public/images/Design/InspirationOsaka.png" class="h-64 sm:h-96 w-auto" alt="">
-                    </div>
-                    <div class="text-center mt-6 sm:mt-10">
-                        <Bouton class="my-4 sm:my-10">
-                            <a href="/public/images/Design/BaptisteROGNON-RoseMENEGAIN-AfficheOsaka-1.png" download id="download-btn">
-                            Télécharger l'affiche
-                            </a>
-                        </Bouton>
-                    </div>
-                </div>
                 </div>
                 
             </div>
 
     </section>
 
-    <section class="pt-8 sm:pt-20">
-        <div>
-            <h3 class="my-6 sm:my-10 px-4 sm:px-20 py-2 sm:py-4 text-center sm:text-left bg-cleargreen">
-                Affiches "test"
-            </h3>
-            <div class="sm:grid sm:grid-cols-2">
-                <div class="px-4 sm:px-20">
-                    <div class="flex justify-center items-center flex-col mt-6 sm:mt-10">
-                            <img src="/public/images/Design/Boolfeitt.png" class="h-64 sm:h-96 w-auto" alt="">
-                    </div>
-                    <div class="flex justify-center items-center flex-col mt-6 sm:mt-10">
-                        <img src="/public/images/Design/Bubbles.png" class="h-64 sm:h-96 w-auto mb-10" alt="">
-                    </div>
-
-                </div>
-                    <div class="bg-clearbeige p-20">
-                        <h4 class="mb-5">
-                            Affiches "test"
-                        </h4>
-                        <p>
-                            J'ai imaginé ces deux affiches pour le plaisir de créé et <br> 
-                            pour essayer certaines combinaisons de couleurs, de formes et de dégradés.
-
-                        </p>
-                        <h5 class="mt-5">
-                            Dates
-                        </h5>
-                        <p>
-                            X/12/2022 & X/12/2022
-                        </p>
-                        <h5 class="mt-5">
-                            Outils
-                        </h5>
-                        <p>
-                            Illustrator
-
-                        </p>
-                        <div class="text-center mt-6 sm:mt-10">
-                        <Bouton class="my-4 sm:my-10">
-                            <a href="/public/images/Design/Boolfeitt.png" download id="download-btn">
-                            Télécharger l'affiche 01
-                            </a>
-                        </Bouton>
-                        <Bouton class="ml-10 my-4 sm:my-10">
-                            <a href="/public/images/Design/Bubbles.png" download id="download-btn">
-                            Télécharger l'affiche 02
-                            </a>
-                        </Bouton>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-
-    </section>
-
-    <section class="pt-8 sm:pt-20">
-        <div class="flex justify-between">
-            <h2 class="px-4 sm:px-20 text-center sm:text-left">Designs Logos</h2>
-            <img src="/public/images/Design/PlantesTombantesLongues.svg" class="rotate-90 w-[200px] -my-[1200px] hidden sm:block" alt="">
-        </div>
-        <div>
-            <h3 class="my-6 sm:my-10 px-4 sm:px-20 py-2 sm:py-4 text-center sm:text-left bg-cleargreen">
-                Logo Naknowledge
-            </h3>
-            <div class="sm:grid sm:grid-cols-2">
-                <div class="px-4 sm:px-20">
-                    <div class="flex justify-center items-center flex-col mt-6 sm:mt-10">
-                        <a href="https://www.figma.com/proto/wd8j2PMyyL3Po6uiISYypJ/maquette-naknowledge?node-id=932%3A3515&scaling=scale-down&page-id=1%3A4&starting-point-node-id=932%3A3515&show-proto-sidebar=1">
-                            <img src="/public/logo/LogoA4Nkwg.png" class="h-64 sm:h-96 w-auto" alt="">
-                        </a>
-                    </div>
-                    <div class="flex justify-center items-center flex-col mt-6 sm:mt-10">
-                        <img src="/public/logo/naknowledge.png" class="h-auto w-2/3 sm:w-auto rounded-lg" alt="">
-                    </div>
-                    <div class="text-center mt-6 sm:mt-10">
-                        <Bouton class="my-4 sm:my-10">
-                            <a href="/public/logo/LogoA4Nkwg.png" download id="download-btn">
-                            Télécharger le logo
-                            </a>
-                        </Bouton>
-                    </div>
-                </div>
-                    <div class="bg-clearbeige p-20">
-                        <h4 class="mb-5">
-                            Naknowledge
-                        </h4>
-                        <p>
-                            Pour ce projet, j'ai été chargé de penser et de réaliser le logo. <br> 
-                            J'ai donc dû réfléchir à différents concepts et idées avant de commencer la phase de création. <br> 
-                            J'ai pris en compte les valeurs et les objectifs de l'entreprise. <br>
-                            Après avoir présenté mes différentes options, nous avons donc fait le choix de garder ce logo ci. <br>
-
-                            
-                        </p>
-                        <h5 class="mt-5">
-                            Acteurs
-                        </h5>
-                        <div class="flex">
-                            <p class="underline mr-2">
-                                Commanditaires :
-                            </p>
-                            <p>
-                                Pascal Chatonnay
-                            </p>
-                        </div>
-                        <div class="flex">
-                            <p class="underline mr-2">
-                            Tuteur :
-                            </p>
-                            <p>
-                                Lydia Dubois
-                            </p>
-                        </div>
-                        <div class="flex">
-                            <p class="underline mr-2">
-                            Prestataires :
-                            </p>
-                            <p>
-                                Mélina BOUCHELLEGHEM, David SARKISSIAN, <br>
-                                Aurélie RUNSER, et moi même.
-                            </p>
-                        </div>
-
-                        <h5 class="mt-5">
-                            Dates
-                        </h5>
-                        <p>
-                            06/09/2022 → 17/10/2022 → 17/01/2023
-                        </p>
-                        <h5 class="mt-5">
-                            Objectifs
-                        </h5>
-                        <p>
-                            Posséder un design qui le rend facilement repérable et surtout mémorable pour les utilisateurs. <br>
-                            Nous avons décidé de représenter une forme d'hexagones faisant référence aux nano-leçons.
-                        </p>
-                        <h5 class="mt-5">
-                            Outils
-                        </h5>
-                        <p>
-                            Illustrator
-                        </p>
-                        <div class="flex mt-2 sm:mt-5">
-                            <a href="https://www.instagram.com/naknowledge/">
-                                <img src="/public/Icons/Instagram.svg" class="w-8 mr-5 hover:bg-whiteb hover:bg-opacity-75 hover:rounded-sm hover:p-1" alt="">
-                            </a>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-
-    </section>
 
 </template>
 

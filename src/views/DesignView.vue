@@ -132,7 +132,7 @@ import Bouton from "@/components/bouton.vue"
                         </h4>
                         <p>
                             TikTak est un site que nous avons dû imaginer et confectionné durant une SAE en BUT MMI. <br> 
-                            Le concept état donc de créer un configurateur de produit pour une montre connectée. <br>
+                            Le concept était donc de créer un configurateur de produit pour une montre connectée. <br>
                             Le site devait être pensé pour le marché des 25-50 ans, unisexe. <br>
                             L'objectif était d'impliquer l'utilisateur dans la création de son modèle et de lui offrir une expérience utilisateur originale. <br>
                             Le nom de la marque de montre est TiK•TaK, sa philosophie est un style raffiné, minimaliste et épuré. <br>
