@@ -1,4 +1,5 @@
-<script setup lang="ts">
+<script setup>
+  import Bouton from "@/components/bouton.vue"
 
 </script>
 
@@ -25,6 +26,9 @@
           La communication, du marketing, du design web, de la conception web, <br> 
           de l'audiovisuel et du développement informatique.
         </p>
+        <p class="underline">
+          Contactez moi : 
+        </p>
         <div class="flex mt-2 sm:mt-5">
                 <a href="https://github.com/menegain-rose">
                     <img src="/public/Icons/Github.svg" class="w-8 mr-5 hover:bg-whiteb hover:bg-opacity-75 hover:rounded-sm hover:p-1" alt="Logo Github">
@@ -40,24 +44,28 @@
 </div>
 </section>
 
+<section class=" m-10 sm:m-20">
+  <form class="bg-clearbrown p-6 rounded-lg shadow-md">
+      <div class="mb-4">
+        <label class="block text-gray-700 font-bold mb-2" for="name">Nom</label>
+        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Votre nom">
+      </div>
+      <div class="mb-4">
+        <label class="block text-gray-700 font-bold mb-2" for="email">Email</label>
+        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Votre email">
+      </div>
+      <div class="mb-6">
+        <label class="block text-gray-700 font-bold mb-2" for="message">Message</label>
+        <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" placeholder="Votre message"></textarea>
+      </div>
+      <div class="flex justify-end">
+        <Bouton class="my-4 sm:my-10" type="submit">
+          Envoyer
+        </Bouton>
+      </div>
+    </form>
 
-<form class="bg-clearbrown p-6 rounded-lg shadow-md">
-    <div class="mb-4">
-      <label class="block text-gray-700 font-bold mb-2" for="name">Nom</label>
-      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Votre nom">
-    </div>
-    <div class="mb-4">
-      <label class="block text-gray-700 font-bold mb-2" for="email">Email</label>
-      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Votre email">
-    </div>
-    <div class="mb-6">
-      <label class="block text-gray-700 font-bold mb-2" for="message">Message</label>
-      <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" placeholder="Votre message"></textarea>
-    </div>
-    <div class="flex justify-end">
-      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">Envoyer</button>
-    </div>
-  </form>
+</section>
 
 
 
