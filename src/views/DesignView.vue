@@ -283,6 +283,7 @@ import Bouton from "@/components/bouton.vue"
                             C'est le style des affiches d'Apple, elle suscite le luxe, la richesse et l'aspect unique de cet objet. <br> 
                             L'Accessoire n'est pas un simple objet mais un cœur, on comprend bien que le cœur est la partie la plus importante du corps humain. <br> 
                             Nous montrons donc que l'humain est devenu une machine, de l'extérieur jusqu'à l'intérieur de lui-même.
+                            Le coeur central à été choisi
                         </p>
 
                         <h5 class="mt-5">
