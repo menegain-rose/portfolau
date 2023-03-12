@@ -1,6 +1,6 @@
 <script setup>
-  import Bouton from "@/components/bouton.vue"
-
+  import Bouton from "@/components/bouton.vue";
+  import emailjs from 'emailjs-com';
 </script>
 
 <template>
@@ -44,9 +44,9 @@
 </div>
 </section>
 
-<section class=" m-10 sm:m-20">
-  <form class="bg-clearbrown p-6 rounded-lg shadow-md">
-      <div class="mb-4">
+<section class=" mx-10 sm:mx-20 mt-10 sm:mt-20">
+  <form id="my-form" class="bg-clearbrown p-6 rounded-lg shadow-md" @submit.prevent="sendEmail">
+    <div class="mb-4">
         <label class="block text-gray-700 font-bold mb-2" for="name">Nom</label>
         <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Votre nom">
       </div>
@@ -62,8 +62,8 @@
         <Bouton class="my-4 sm:my-10" type="submit">
           Envoyer
         </Bouton>
-      </div>
-    </form>
+      </div> 
+  </form>
 
 </section>
 
@@ -82,6 +82,14 @@ export default {
       console.log(`Nom: ${name}`)
       console.log(`Email: ${email}`)
       console.log(`Message: ${message}`)
+    },
+    sendEmail() {
+      emailjs.sendForm('service_y9mcl0a', '__ejs-test-mail-service__', 'my-form', 'Public Key')
+        .then((response) => {
+          console.log('SUCCESS!', response.status, response.text);
+        }, (error) => {
+          console.log('FAILED...', error);
+        });
     }
   }
 }
