@@ -12,7 +12,7 @@ const router = createRouter({
     { path: '/APropos', name: 'APropos', component: AProposView },
     { path: '/Design', name: 'Design', component: DesignView },
     { path: '/Developpement', name: 'Developpement', component: DeveloppementView },
-    { path: '/PageNotFound', name: 'v', component: PageNotFoundView },
+    { path: '/PageNotFound', name: 'PageNotFound', component: PageNotFoundView },
   ]
 })
 
