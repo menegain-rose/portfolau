@@ -8,7 +8,7 @@ import Bouton from "@/components/bouton.vue"
     <section class="pt-8 sm:pt-20">
         <div class="flex justify-between">
             <h2 class="px-4 sm:px-20 text-center sm:text-left">Designs Maquettes</h2>
-            <img src="/public/images/Design/PlantesTombantesLongues.svg" class="rotate-90 w-[200px] -my-[1200px] hidden sm:block" alt="">
+            <img src="/public/images/Design/PlantesTombantesLongues.svg" class="rotate-90 w-[200px] -my-[1200px] hidden sm:block" alt="Dessin Plantes Tombantes">
         </div>
         <div>
             <h3 class="my-6 sm:my-10 px-4 sm:px-20 py-2 sm:py-4 text-center sm:text-left bg-cleargreen">
@@ -18,12 +18,12 @@ import Bouton from "@/components/bouton.vue"
                 <div class="px-4 sm:px-20">
                     <div class="flex justify-center items-center flex-col mt-6 sm:mt-10">
                         <a href="https://www.figma.com/proto/wd8j2PMyyL3Po6uiISYypJ/maquette-naknowledge?node-id=932%3A3515&scaling=scale-down&page-id=1%3A4&starting-point-node-id=932%3A3515&show-proto-sidebar=1">
-                            <img src="/public/images/Design/Naknowledge02.png" class="h-64 sm:h-96 w-auto" alt="">
+                            <img src="/public/images/Design/Naknowledge02.png" class="h-64 sm:h-96 w-auto" alt="Interface Naknowledge">
                         </a>
                     </div>
                     <div class="flex justify-center items-center flex-col mt-6 sm:mt-10">
-                        <img src="/public/images/Design/MoodboardNkwg.png" class="h-auto w-2/3 sm:w-auto rounded-lg" alt="">
-                        <img src="/public/logo/naknowledge.png" class="h-auto w-2/3 sm:w-auto rounded-lg mt-6 sm:mt-10" alt="">
+                        <img src="/public/images/Design/MoodboardNkwg.png" class="h-auto w-2/3 sm:w-auto rounded-lg" alt="Moodboard Naknowledge">
+                        <img src="/public/logo/naknowledge.png" class="h-auto w-2/3 sm:w-auto rounded-lg mt-6 sm:mt-10" alt="Logo Naknowledge">
                     </div>
                     <div class="text-center mt-6 sm:mt-10">
                         <Bouton class="my-4 sm:my-10">
@@ -110,7 +110,7 @@ import Bouton from "@/components/bouton.vue"
                         </p>
                         <div class="flex mt-2 sm:mt-5">
                             <a href="https://www.instagram.com/naknowledge/">
-                                <img src="/public/Icons/Instagram.svg" class="w-8 mr-5 hover:bg-whiteb hover:bg-opacity-75 hover:rounded-sm hover:p-1" alt="">
+                                <img src="/public/Icons/Instagram.svg" class="w-8 mr-5 hover:bg-whiteb hover:bg-opacity-75 hover:rounded-sm hover:p-1" alt="Logo Instagram">
                             </a>
                         </div>
                     </div>
@@ -181,11 +181,11 @@ import Bouton from "@/components/bouton.vue"
                     <div class="px-4 sm:px-20">
                     <div class="flex justify-center items-center flex-col mt-6 sm:mt-10">
                         <a href="https://www.figma.com/proto/YHhsoBp3XGR4SSKTrYiqKB/SAE301?node-id=6%3A4&scaling=scale-down-width&page-id=6%3A3&starting-point-node-id=29%3A544">
-                            <img src="/public/images/Design/TikTak.png" class="h-64 sm:h-96 w-auto" alt="">
+                            <img src="/public/images/Design/TikTak.png" class="h-64 sm:h-96 w-auto" alt="Interface TikTak">
                         </a>
                     </div>
                     <div class="flex justify-center items-center flex-col mt-6 sm:mt-10">
-                        <img src="/public/images/Design/GDSTikTak.png" class="h-auto w-2/3 sm:w-auto rounded-lg" alt="">
+                        <img src="/public/images/Design/GDSTikTak.png" class="h-auto w-2/3 sm:w-auto rounded-lg" alt="Guide de style TikTak">
                     </div>
                     <div class="text-center mt-6 sm:mt-10">
                         <Bouton class="my-4 sm:my-10">
@@ -205,7 +205,7 @@ import Bouton from "@/components/bouton.vue"
     <section class="pt-8 sm:pt-20">
         <div class="flex justify-between">
             <h2 class="px-4 sm:px-20 text-center sm:text-left">Designs Affiches</h2>
-            <img src="/public/images/Design/PlantesTombantesLongues.svg" class="rotate-90 w-[200px] -my-[1200px] hidden sm:block" alt="">
+            <img src="/public/images/Design/PlantesTombantesLongues.svg" class="rotate-90 w-[200px] -my-[1200px] hidden sm:block" alt="Dessin Plantes Tombantes">
         </div>
         <div>
             <h3 class="my-6 sm:my-10 px-4 sm:px-20 py-2 sm:py-4 text-center sm:text-left bg-cleargreen">
@@ -214,10 +214,10 @@ import Bouton from "@/components/bouton.vue"
             <div class="sm:grid sm:grid-cols-2">
                 <div class="px-4 sm:px-20">
                     <div class="flex justify-center items-center flex-col mt-6 sm:mt-10">
-                            <img src="/public/images/Design/Cassandre_RoseMENEGAIN_A2.svg" class="h-64 sm:h-96 w-auto" alt="">
+                            <img src="/public/images/Design/Cassandre_RoseMENEGAIN_A2.svg" class="h-64 sm:h-96 w-auto" alt="Affiche Cassandre">
                     </div>
                     <div class="flex justify-center items-center flex-col mt-6 sm:mt-10">
-                        <img src="/public/images/Design/InspirationCassandre.png" class="h-auto w-2/3 sm:w-auto rounded-lg mb-10" alt="">
+                        <img src="/public/images/Design/InspirationCassandre.png" class="h-auto w-2/3 sm:w-auto rounded-lg mb-10" alt="Inspiration Cassandre">
                     </div>
 
                 </div>
@@ -330,11 +330,11 @@ import Bouton from "@/components/bouton.vue"
                     <div class="px-4 sm:px-20">
                     <div class="flex justify-center items-center flex-col mt-6 sm:mt-10">
                         <a href="https://www.figma.com/proto/YHhsoBp3XGR4SSKTrYiqKB/SAE301?node-id=6%3A4&scaling=scale-down-width&page-id=6%3A3&starting-point-node-id=29%3A544">
-                            <img src="/public/images/Design/BaptisteROGNON-RoseMENEGAIN-AfficheOsaka-1.png" class="h-64 sm:h-96 w-auto" alt="">
+                            <img src="/public/images/Design/BaptisteROGNON-RoseMENEGAIN-AfficheOsaka-1.png" class="h-64 sm:h-96 w-auto" alt="Affiche Osaka">
                         </a>
                     </div>
                     <div class="flex justify-center items-center flex-col mt-6 sm:mt-10">
-                        <img src="/public/images/Design/InspirationOsaka.png" class="h-64 sm:h-96 w-auto" alt="">
+                        <img src="/public/images/Design/InspirationOsaka.png" class="h-64 sm:h-96 w-auto" alt="Inspiration Osaka">
                     </div>
                     <div class="text-center mt-6 sm:mt-10">
                         <Bouton class="my-4 sm:my-10">
@@ -358,10 +358,10 @@ import Bouton from "@/components/bouton.vue"
             <div class="sm:grid sm:grid-cols-2">
                 <div class="px-4 sm:px-20">
                     <div class="flex justify-center items-center flex-col mt-6 sm:mt-10">
-                            <img src="/public/images/Design/Boolfeitt.png" class="h-64 sm:h-96 w-auto" alt="">
+                            <img src="/public/images/Design/Boolfeitt.png" class="h-64 sm:h-96 w-auto" alt="Affiche Boolfeitt">
                     </div>
                     <div class="flex justify-center items-center flex-col mt-6 sm:mt-10">
-                        <img src="/public/images/Design/Bubbles.png" class="h-64 sm:h-96 w-auto mb-10" alt="">
+                        <img src="/public/images/Design/Bubbles.png" class="h-64 sm:h-96 w-auto mb-10" alt="Affiche Bubbles">
                     </div>
 
                 </div>
@@ -409,7 +409,7 @@ import Bouton from "@/components/bouton.vue"
     <section class="pt-8 sm:pt-20">
         <div class="flex justify-between">
             <h2 class="px-4 sm:px-20 text-center sm:text-left">Designs Logos</h2>
-            <img src="/public/images/Design/PlantesTombantesLongues.svg" class="rotate-90 w-[200px] -my-[1200px] hidden sm:block" alt="">
+            <img src="/public/images/Design/PlantesTombantesLongues.svg" class="rotate-90 w-[200px] -my-[1200px] hidden sm:block" alt="Dessin Plantes Tombantes">
         </div>
         <div>
             <h3 class="my-6 sm:my-10 px-4 sm:px-20 py-2 sm:py-4 text-center sm:text-left bg-cleargreen">
@@ -419,11 +419,11 @@ import Bouton from "@/components/bouton.vue"
                 <div class="px-4 sm:px-20">
                     <div class="flex justify-center items-center flex-col mt-6 sm:mt-10">
                         <a href="https://www.figma.com/proto/wd8j2PMyyL3Po6uiISYypJ/maquette-naknowledge?node-id=932%3A3515&scaling=scale-down&page-id=1%3A4&starting-point-node-id=932%3A3515&show-proto-sidebar=1">
-                            <img src="/public/logo/LogoA4Nkwg.png" class="h-64 sm:h-96 w-auto" alt="">
+                            <img src="/public/logo/LogoA4Nkwg.png" class="h-64 sm:h-96 w-auto" alt="Affiche Naknowledge">
                         </a>
                     </div>
                     <div class="flex justify-center items-center flex-col mt-6 sm:mt-10">
-                        <img src="/public/logo/naknowledge.png" class="h-auto w-2/3 sm:w-auto rounded-lg" alt="">
+                        <img src="/public/logo/naknowledge.png" class="h-auto w-2/3 sm:w-auto rounded-lg" alt="Logo Naknowledge">
                     </div>
                     <div class="text-center mt-6 sm:mt-10">
                         <Bouton class="my-4 sm:my-10">

@@ -15,7 +15,7 @@ window.addEventListener('scroll', function() {
     <div class="bg-darkgreen flex flex-col items-center justify-start min-h-screen">
         <div class="bg-cleargreen my-20 pt-40 px-20 rounded-t-full">
             <H1 class="text-whiteb">Rose MENEGAIN</H1>
-            <img src="/public/images/Portrait.png" class="w-72 sm:w-96 h-auto" alt="">
+            <img src="/public/images/Portrait.png" class="w-72 sm:w-96 h-auto" alt="Portrait dessin Rose MENEGAIN">
         </div>
         <div class="animation">
             <svg xmlns="http://www.w3.org/2000/svg" width="5em" height="5em" viewBox="0 0 1024 1024"><path fill="#F5F2EC" d="M831.872 340.864L512 652.672L192.128 340.864a30.592 30.592 0 0 0-42.752 0a29.12 29.12 0 0 0 0 41.6L489.664 714.24a32 32 0 0 0 44.672 0l340.288-331.712a29.12 29.12 0 0 0 0-41.728a30.592 30.592 0 0 0-42.752 0z"></path></svg>
@@ -40,13 +40,13 @@ window.addEventListener('scroll', function() {
             </p>
             <div class="flex mt-2 sm:mt-5">
                 <a href="https://github.com/menegain-rose">
-                    <img src="/public/Icons/Github.svg" class="w-8 mr-5 hover:bg-whiteb hover:bg-opacity-75 hover:rounded-sm hover:p-1" alt="">
+                    <img src="/public/Icons/Github.svg" class="w-8 mr-5 hover:bg-whiteb hover:bg-opacity-75 hover:rounded-sm hover:p-1" alt="Logo Github">
                 </a>
                 <a href="https://www.instagram.com/eiku_s/">
-                    <img src="/public/Icons/Instagram.svg" class="w-8 mr-5 hover:bg-whiteb hover:bg-opacity-75 hover:rounded-sm hover:p-1" alt="">
+                    <img src="/public/Icons/Instagram.svg" class="w-8 mr-5 hover:bg-whiteb hover:bg-opacity-75 hover:rounded-sm hover:p-1" alt="Logo Instagram">
                 </a>
                 <a href="https://www.linkedin.com/in/rose-menegain/">
-                    <img src="/public/Icons/Linkedin.svg" class="w-8 mr-5 hover:bg-whiteb hover:bg-opacity-75 hover:rounded-sm hover:p-1" alt="">
+                    <img src="/public/Icons/Linkedin.svg" class="w-8 mr-5 hover:bg-whiteb hover:bg-opacity-75 hover:rounded-sm hover:p-1" alt="Logo Linkedin">
                 </a>
             </div>
         </div>
@@ -54,13 +54,13 @@ window.addEventListener('scroll', function() {
         <div class="mx-2 sm:mx-10">
             <router-link to="/Design">
                 <div class="flex flex-col sm:flex-row items-center bg-brown my-10 py-5 px-5 rounded-lg">
-                    <img src="/public/images/Design/Cassandre_RoseMENEGAIN_A2.svg" class="w-auto h-60 order-last sm:order-first" alt="">
+                    <img src="/public/images/Design/Cassandre_RoseMENEGAIN_A2.svg" class="w-auto h-60 order-last sm:order-first" alt="Affiche Cassandre">
                     <h2 class="text-whiteb mb-5 sm:ml-10">Designs</h2>
                 </div>
             </router-link>
             <router-link to="/Developpement">
             <div class="flex flex-col sm:flex-row items-center bg-brown my-10 py-5 px-5 rounded-lg">
-                <img src="/public/images/sae301.png" class="w-auto h-60 order-last sm:order-first" alt="">
+                <img src="/public/images/sae301.png" class="w-auto h-60 order-last sm:order-first" alt="Capture d'écran interface TikTak ">
                 <h2 class="text-whiteb mb-5 sm:ml-10">Développement</h2>
             </div>
         </router-link>
@@ -102,8 +102,8 @@ window.addEventListener('scroll', function() {
             </div>
 
             <div class="flex flex-col items-center justify-center">
-                <img src="/public/logo/naknowledge.png" class="w-auto h-60 " alt="">
-                <img src="/public/images/Design/Citadelle.svg" class="w-auto h-60 mt-10" alt="">
+                <img src="/public/logo/naknowledge.png" class="w-auto h-60 " alt="Logo Naknowledge">
+                <img src="/public/images/Design/Citadelle.svg" class="w-auto h-60 mt-10" alt="Illustration Citadelle">
             </div>
         </div>
     </section>
@@ -142,31 +142,31 @@ window.addEventListener('scroll', function() {
         <div class="">
             <router-link to="/Design">
                 <div class="pt-10 grid grid-cols-5">
-                    <img src="/public/Logiciels/design/figma.png" class="w-auto h-20 mr-10 hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="">
-                    <img src="/public/Logiciels/design/Audition.svg.png" class="w-20 h-auto mr-10 hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="">
-                    <img src="/public/Logiciels/design/Illustrator.png" class="w-20 h-auto mr-10 hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="">
-                    <img src="/public/Logiciels/design/PremierePro.svg.png" class="w-20 h-auto mr-10 hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="">
-                    <img src="/public/Logiciels/design/InDesign.png" class="w-20 h-auto mr-10 hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="">
+                    <img src="/public/Logiciels/design/figma.png" class="w-auto h-20 mr-10 hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="Logo Figma">
+                    <img src="/public/Logiciels/design/Audition.svg.png" class="w-20 h-auto mr-10 hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="Logo Audition">
+                    <img src="/public/Logiciels/design/Illustrator.png" class="w-20 h-auto mr-10 hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="Logo Illustrator">
+                    <img src="/public/Logiciels/design/PremierePro.svg.png" class="w-20 h-auto mr-10 hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="Logo PremierePro">
+                    <img src="/public/Logiciels/design/InDesign.png" class="w-20 h-auto mr-10 hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="Logo InDesign">
                 </div>
             </router-link>
 
             <router-link to="/Developpement">
                 <div class="pt-20 grid grid-cols-5">
-                    <img src="/public/Logiciels/developpement/HTML5.svg.png" class="w-auto h-20 mr-10 hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="">
-                    <img src="/public/Logiciels/developpement/CSS3.svg.png" class="w-auto h-20 mr-10 hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="">
-                    <img src="/public/Logiciels/developpement/JavaScript.png" class="w-auto h-20 mr-10 hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="">
-                    <img src="/public/Logiciels/developpement/Tailwind.png" class="w-auto h-20 mr-10 hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="">
-                    <img src="/public/Logiciels/developpement/Vuejs.svg.png" class="w-auto h-20 mr-10 hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="">
+                    <img src="/public/Logiciels/developpement/HTML5.svg.png" class="w-auto h-20 mr-10 hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="Logo HTML5">
+                    <img src="/public/Logiciels/developpement/CSS3.svg.png" class="w-auto h-20 mr-10 hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="Logo CSS3">
+                    <img src="/public/Logiciels/developpement/JavaScript.png" class="w-auto h-20 mr-10 hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="Logo JavaScript">
+                    <img src="/public/Logiciels/developpement/Tailwind.png" class="w-auto h-20 mr-10 hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="Logo Tailwind">
+                    <img src="/public/Logiciels/developpement/Vuejs.svg.png" class="w-auto h-20 mr-10 hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="Logo Vuejs">
                 </div>
             </router-link>
 
             <router-link to="/Developpement">
                 <div class="pt-20 grid grid-cols-5">
-                    <img src="/public/Logiciels/developpement/Wordpress.png" class="w-auto h-20 mr-10 hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="">
-                    <img src="/public/Logiciels/developpement/Openstreetmap.svg.png" class="w-auto h-20 mr-10 hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="">
-                    <img src="/public/Logiciels/developpement/firebase.png" class="w-auto h-20 mr-10 hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="">
-                    <img src="/public/Logiciels/developpement/supabase.png" class="w-auto h-20 mr-10 hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="">
-                    <img src="/public/Logiciels/developpement/herou.jpg" class="w-auto h-20 mr-10 rounded-sm hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="">
+                    <img src="/public/Logiciels/developpement/Wordpress.png" class="w-auto h-20 mr-10 hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="Logo Wordpress">
+                    <img src="/public/Logiciels/developpement/Openstreetmap.svg.png" class="w-auto h-20 mr-10 hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="Logo Openstreetmap">
+                    <img src="/public/Logiciels/developpement/firebase.png" class="w-auto h-20 mr-10 hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="Logo Firebase">
+                    <img src="/public/Logiciels/developpement/supabase.png" class="w-auto h-20 mr-10 hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="Logo Supabase">
+                    <img src="/public/Logiciels/developpement/herou.jpg" class="w-auto h-20 mr-10 rounded-sm hover:bg-clearbeige hover:bg-opacity-25 hover:rounded-sm hover:p-2" alt="Logo Heroku">
                 </div>
             </router-link>
     

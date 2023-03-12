@@ -8,7 +8,7 @@ import Bouton from "@/components/bouton.vue"
     <section class="pt-8 sm:pt-20">
         <div class="flex justify-between">
             <h2 class="px-4 sm:px-20 text-center sm:text-left">Développement</h2>
-            <img src="/public/images/Design/PlantesTombantesLongues.svg" class="rotate-90 w-[200px] -my-[1200px] hidden sm:block" alt="">
+            <img src="/public/images/Design/PlantesTombantesLongues.svg" class="rotate-90 w-[200px] -my-[1200px] hidden sm:block" alt="Dessin Plantes Tombantes">
         </div>
         <div>
             <h3 class="my-6 sm:my-10 px-4 sm:px-20 py-2 sm:py-4 text-center sm:text-left bg-cleargreen">
@@ -18,11 +18,11 @@ import Bouton from "@/components/bouton.vue"
                 <div class="px-4 sm:px-20">
                     <div class="flex justify-center items-center flex-col mt-6 sm:mt-10">
                         <a href="/public/SAE303.zip"  @click="downloadZip">
-                            <img src="/public/images/Développement/Openstreetmap.png" class="h-auto w-2/3 sm:w-auto" alt="">
+                            <img src="/public/images/Développement/Openstreetmap.png" class="h-auto w-2/3 sm:w-auto" alt="Interface Openstreetmap">
                         </a>
                     </div>
                     <div class="flex justify-center items-center flex-col mt-6 sm:mt-10">
-                        <img src="/public/images/Développement/Graph.png" class="h-auto w-2/3 sm:w-auto " alt="">
+                        <img src="/public/images/Développement/Graph.png" class="h-auto w-2/3 sm:w-auto " alt="Visuel sur un graphique">
                     </div>
                     <div class="text-center mt-6 sm:mt-10">
                         <Bouton class="my-4 sm:my-10">
@@ -135,11 +135,11 @@ import Bouton from "@/components/bouton.vue"
                     <div class="px-4 sm:px-20">
                     <div class="flex justify-center items-center flex-col mt-6 sm:mt-10">
                         <a href="https://dazzling-lebkuchen-42612d.netlify.app/">
-                            <img src="/public/images/Design/TikTak.png" class="h-64 sm:h-96 w-auto" alt="">
+                            <img src="/public/images/Design/TikTak.png" class="h-64 sm:h-96 w-auto" alt="Interface TikTak">
                         </a>
                     </div>
                     <div class="flex justify-center items-center flex-col mt-6 sm:mt-10">
-                        <img src="/public/images/Développement/PageConnect°.png" class="h-64 sm:h-96 w-auto" alt="">
+                        <img src="/public/images/Développement/PageConnect°.png" class="h-64 sm:h-96 w-auto" alt="Page connection TikTak">
                     </div>
                     <div class="text-center mt-6 sm:mt-10">
                         <Bouton class="my-4 sm:my-10">
@@ -163,14 +163,14 @@ import Bouton from "@/components/bouton.vue"
             <div class="sm:grid sm:grid-cols-2">
                 <div class="px-4 sm:px-20">
                     <div class="flex justify-center items-center flex-col mt-6 sm:mt-10">
-                            <img src="/public/images/Développement/Réarts.png" class="h-64 sm:h-96 w-auto" alt="">
+                            <img src="/public/images/Développement/Réarts.png" class="h-64 sm:h-96 w-auto" alt="Interface Réarts">
                     </div>
                     <div class="flex justify-center items-center mt-6 sm:mt-10">
                         <div class="flex flex-col items-center mr-6">
-                            <img src="/public/images/Développement/RéartsConnect°.png" class="h-64 sm:h-96 w-auto mb-10" alt="">
+                            <img src="/public/images/Développement/RéartsConnect°.png" class="h-64 sm:h-96 w-auto mb-10" alt="Page connection  Réarts">
                         </div>
                         <div class="flex flex-col items-center">
-                            <img src="/public/images/Développement/RéartsArtiste.png" class="h-64 sm:h-96 w-auto" alt="">
+                            <img src="/public/images/Développement/RéartsArtiste.png" class="h-64 sm:h-96 w-auto" alt="Page Artiste">
                         </div>
                     </div>
                     <div class="text-center mt-6 sm:mt-10">
