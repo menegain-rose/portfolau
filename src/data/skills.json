@@ -28,43 +28,43 @@
         "url": "/Developpement",
         "icons": [
             {
-                "src": "/public/Logiciels/developpement/HTML5.svg.png",
+                "src": "/Logiciels/developpement/HTML5.svg.png",
                 "alt": "Logo HTML5"
             },
             {
-                "src": "/public/Logiciels/developpement/CSS3.svg.png",
+                "src": "/Logiciels/developpement/CSS3.svg.png",
                 "alt": "Logo CSS3"
             },
             {
-                "src": "/public/Logiciels/developpement/JavaScript.png",
+                "src": "/Logiciels/developpement/JavaScript.png",
                 "alt": "Logo JavaScript"
             },
             {
-                "src": "/public/Logiciels/developpement/Tailwind.png",
+                "src": "/Logiciels/developpement/Tailwind.png",
                 "alt": "Logo Tailwind"
             },
             {
-                "src": "/public/Logiciels/developpement/Vuejs.svg.png",
+                "src": "/Logiciels/developpement/Vuejs.svg.png",
                 "alt": "Logo Vuejs"
             },
             {
-                "src": "/public/Logiciels/developpement/Wordpress.png",
+                "src": "/Logiciels/developpement/Wordpress.png",
                 "alt": "Logo Wordpress"
             },
             {
-                "src": "/public/Logiciels/developpement/Openstreetmap.svg.png",
+                "src": "/Logiciels/developpement/Openstreetmap.svg.png",
                 "alt": "Logo Openstreetmap"
             },
             {
-                "src": "/public/Logiciels/developpement/firebase.png",
+                "src": "/Logiciels/developpement/firebase.png",
                 "alt": "Logo Firebase"
             },
             {
-                "src": "/public/Logiciels/developpement/supabase.png",
+                "src": "/Logiciels/developpement/supabase.png",
                 "alt": "Logo Supabase"
             },
             {
-                "src": "/public/Logiciels/developpement/herou.jpg",
+                "src": "/Logiciels/developpement/herou.jpg",
                 "alt": "Logo Heroku"
             }
         ]
