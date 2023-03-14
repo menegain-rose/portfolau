@@ -3,23 +3,23 @@
         "url": "/Design",
         "icons": [
             {
-                "src": "/public/Logiciels/design/figma.png",
+                "src": "/Logiciels/design/figma.png",
                 "alt": "Logo Figma"
             },
             {
-                "src": "/public/Logiciels/design/Audition.svg.png",
+                "src": "/Logiciels/design/Audition.svg.png",
                 "alt": "Logo Audition"
             },
             {
-                "src": "/public/Logiciels/design/Illustrator.png",
+                "src": "/Logiciels/design/Illustrator.png",
                 "alt": "Logo Illustrator"
             },
             {
-                "src": "/public/Logiciels/design/PremierePro.svg.png",
+                "src": "/Logiciels/design/PremierePro.svg.png",
                 "alt": "Logo PremierePro"
             },
             {
-                "src": "/public/Logiciels/design/InDesign.png",
+                "src": "/Logiciels/design/InDesign.png",
                 "alt": "Logo InDesign"
             }
         ]
