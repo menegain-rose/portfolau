@@ -1,5 +1,6 @@
 <script setup>
 import Bouton from "@/components/bouton.vue"
+
 window.addEventListener('scroll', function() {
     var animation = document.querySelector('.animation');
     var position = animation.getBoundingClientRect().top;
@@ -14,7 +15,7 @@ window.addEventListener('scroll', function() {
 
     <div class="bg-darkgreen flex flex-col items-center justify-start min-h-screen">
         <div class="bg-cleargreen my-20 pt-40 px-20 rounded-t-full">
-            <H1 class="text-whiteb">Rose MENEGAIN</H1>
+            <h1 class="text-whiteb">Rose MENEGAIN</h1>
             <img src="/public/images/Portrait.png" class="w-72 sm:w-96 h-auto" alt="Portrait dessin Rose MENEGAIN">
         </div>
         <div class="animation">

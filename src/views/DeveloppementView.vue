@@ -17,7 +17,7 @@ import Bouton from "@/components/bouton.vue"
             <div class="sm:grid sm:grid-cols-2">
                 <div class="px-4 sm:px-20">
                     <div class="flex justify-center items-center flex-col mt-6 sm:mt-10">
-                        <a href="/public/SAE303.zip"  @click="downloadZip">
+                        <a href="https://github.com/menegain-rose/303/archive/refs/heads/main.zip">
                             <img src="/public/images/Développement/Openstreetmap.png" class="h-auto w-2/3 sm:w-auto" alt="Interface Openstreetmap">
                         </a>
                     </div>
@@ -26,8 +26,8 @@ import Bouton from "@/components/bouton.vue"
                     </div>
                     <div class="text-center mt-6 sm:mt-10">
                         <Bouton class="my-4 sm:my-10">
-                            <a href="/public/SAE303.zip"  @click="downloadZip">
-                            Télécharger le projet
+                            <a href="https://github.com/menegain-rose/303/archive/refs/heads/main.zip">
+                            Télécharger
                             </a>
                         </Bouton>
                         </div>
@@ -239,33 +239,5 @@ import Bouton from "@/components/bouton.vue"
 </template>
 
 <script>
-export default {
-    methods: {
-        downloadImage() {
-            const link = document.createElement('a');
-            link.href = '/public/images/Design/InspirationCassandre.png';
-            link.download = 'InspirationCassandre.png';
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-        },
 
-        downloadZip() {
-      fetch('https://example.com/file.zip')
-        .then(response => response.blob())
-        .then(blob => {
-          const url = window.URL.createObjectURL(new Blob([blob]));
-          const link = document.createElement('a');
-          link.href = url;
-          link.setAttribute('download', 'file.zip');
-          document.body.appendChild(link);
-          link.click();
-        });
-    }
-    },
-    mounted() {
-        const downloadBtn = document.getElementById('download-btn');
-        downloadBtn.addEventListener('click', this.downloadImage);
-    },
-};
 </script>
