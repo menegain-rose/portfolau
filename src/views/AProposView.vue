@@ -4,7 +4,7 @@
 </script>
 
 <template>
-<section class="pt-8 sm:pt-20">
+<section class="pt-8 sm:pt-20 overflow-hidden">
   <div class="flex justify-between">
             <h2 class="px-4 sm:px-20 text-center sm:text-left">A propos </h2>
             <img src="/public/images/Design/PlantesTombantesLongues.svg" class="rotate-90 w-[200px] -my-[1200px] hidden sm:block" alt="Dessin Plantes Tombantes">

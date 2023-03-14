@@ -5,7 +5,7 @@ import Bouton from "@/components/bouton.vue"
 
 <template>
 
-    <section class="pt-8 sm:pt-20">
+    <section class="pt-8 sm:pt-20 overflow-hidden">
         <div class="flex justify-between">
             <h2 class="px-4 sm:px-20 text-center sm:text-left">Designs Maquettes</h2>
             <img src="/public/images/Design/PlantesTombantesLongues.svg" class="rotate-90 w-[200px] -my-[1200px] hidden sm:block" alt="Dessin Plantes Tombantes">
@@ -120,7 +120,7 @@ import Bouton from "@/components/bouton.vue"
 
     </section>
 
-    <section class="pt-8 sm:pt-20">
+    <section class="pt-8 sm:pt-20 overflow-hidden">
         <div>
             <h3 class="my-6 sm:my-10 px-4 sm:px-20 py-2 sm:py-4 text-center sm:text-left bg-cleargreen">
                 Maquette TikTak
@@ -202,7 +202,7 @@ import Bouton from "@/components/bouton.vue"
     </section>
 
 
-    <section class="pt-8 sm:pt-20">
+    <section class="pt-8 sm:pt-20 overflow-hidden">
         <div class="flex justify-between">
             <h2 class="px-4 sm:px-20 text-center sm:text-left">Designs Affiches</h2>
             <img src="/public/images/Design/PlantesTombantesLongues.svg" class="rotate-90 w-[200px] -my-[1200px] hidden sm:block" alt="Dessin Plantes Tombantes">
@@ -266,7 +266,7 @@ import Bouton from "@/components/bouton.vue"
 
     </section>
 
-    <section class="pt-8 sm:pt-20">
+    <section class="pt-8 sm:pt-20 overflow-hidden">
         <div>
             <h3 class="my-6 sm:my-10 px-4 sm:px-20 py-2 sm:py-4 text-center sm:text-left bg-cleargreen">
                 Affiche Exposition Universelle 2025
@@ -361,7 +361,7 @@ import Bouton from "@/components/bouton.vue"
 
     </section>
 
-    <section class="pt-8 sm:pt-20">
+    <section class="pt-8 sm:pt-20 overflow-hidden">
         <div>
             <h3 class="my-6 sm:my-10 px-4 sm:px-20 py-2 sm:py-4 text-center sm:text-left bg-cleargreen">
                 Affiches "test"
@@ -417,7 +417,7 @@ import Bouton from "@/components/bouton.vue"
 
     </section>
 
-    <section class="pt-8 sm:pt-20">
+    <section class="pt-8 sm:pt-20 overflow-hidden">
         <div class="flex justify-between">
             <h2 class="px-4 sm:px-20 text-center sm:text-left">Designs Logos</h2>
             <img src="/public/images/Design/PlantesTombantesLongues.svg" class="rotate-90 w-[200px] -my-[1200px] hidden sm:block" alt="Dessin Plantes Tombantes">

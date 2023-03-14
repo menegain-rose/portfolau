@@ -5,7 +5,7 @@ import Bouton from "@/components/bouton.vue"
 
 <template>
 
-    <section class="pt-8 sm:pt-20">
+    <section class="pt-8 sm:pt-20 overflow-hidden">
         <div class="flex justify-between">
             <h2 class="px-4 sm:px-20 text-center sm:text-left">Développement</h2>
             <img src="/public/images/Design/PlantesTombantesLongues.svg" class="rotate-90 w-[200px] -my-[1200px] hidden sm:block" alt="Dessin Plantes Tombantes">
@@ -84,7 +84,7 @@ import Bouton from "@/components/bouton.vue"
 
     </section>
 
-    <section class="pt-8 sm:pt-20">
+    <section class="pt-8 sm:pt-20 overflow-hidden">
         <div>
             <h3 class="my-6 sm:my-10 px-4 sm:px-20 py-2 sm:py-4 text-center sm:text-left bg-cleargreen">
                 TikTak et son Back-End par Supabase
@@ -155,7 +155,7 @@ import Bouton from "@/components/bouton.vue"
 
     </section>
 
-    <section class="pt-8 sm:pt-20">
+    <section class="pt-8 sm:pt-20 overflow-hidden">
         <div>
             <h3 class="my-6 sm:my-10 px-4 sm:px-20 py-2 sm:py-4 text-center sm:text-left bg-cleargreen">
                 Réarts et son Back-End par Firebase
