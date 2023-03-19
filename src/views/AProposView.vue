@@ -9,7 +9,7 @@
             <h2 class="px-4 sm:px-20 text-center sm:text-left">A propos </h2>
             <img src="/public/images/Design/PlantesTombantesLongues.svg" class="rotate-90 w-[200px] -my-[1200px] hidden sm:block" alt="Dessin Plantes Tombantes">
         </div>
-    <div class="sm:grid sm:grid-cols-2">
+    <div class=" grid grid-cols-1 lg:grid-cols-2">
       <div class="px-4 sm:px-20">
           <div class="flex justify-center items-center flex-col p-10 sm:p-20">
                   <img src="/public/images/PortraitPhoto.jpg" class="h-64 sm:h-96 w-auto" alt="Photo Rose MENEGAIN">

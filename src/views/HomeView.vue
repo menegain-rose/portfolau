@@ -43,8 +43,8 @@ window.addEventListener('scroll', function () {
         </div>
     </div>
 
-    <section class="my-10 sm:my-20 grid grid-cols-1 sm:grid-cols-2">
-        <div class="bg-clearbeige px-8 py-14 sm:p-20">
+    <section class="my-10 sm:my-20 grid grid-cols-1 lg:grid-cols-2">
+        <div class="bg-clearbeige px-8 py-14 lg:p-20">
             <h2>Mes travaux</h2>
             <p class="pt-5">
                 Découvrez ici mes divers projets, ainsi que mes réalisations dans les domaines du
