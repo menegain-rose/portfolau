@@ -44,7 +44,7 @@ import Bouton from "@/components/bouton.vue"
                             Ces nano-leçons ont pour vocations de présenter un savoir/savoir-faire qui peuvent être obtenu et assimilé en quelques minutes, <br>
                             d'où le mot “nano” signifiant “petit”. <br>
                             Étant donné que Naknowledge propose du contenu ludique, <br> 
-                            les nano leçons sontaccompagnées de liens vers d'autres nano leçons corrélées et similaires aux leçons précédemment étudiés.
+                            les nano leçons sont accompagnées de liens vers d'autres nano leçons corrélées et similaires aux leçons précédemment étudiés.
                         </p>
                         <h5 class="mt-5">
                             Acteurs
