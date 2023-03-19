@@ -210,7 +210,7 @@ window.addEventListener('scroll', function () {
         <div class="">
             <div v-for="category in skills">
                 <router-link :to="category.url">
-                    <div class="pt-10 grid grid-cols-5 gap-10">
+                    <div class="pt-10 grid grid-cols-3 lg:grid-cols-5 gap-10">
                         <Icon v-for="icon in category.icons" :src="icon.src" :alt="icon.alt" />
                     </div>
                 </router-link>

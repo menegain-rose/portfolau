@@ -1,5 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
+import Menu from "@/components/Icons/menu.vue";
+import { ref } from "vue";
 </script>
 
 <template>
@@ -11,31 +13,60 @@ import { RouterLink, RouterView } from "vue-router";
     </router-link>
   </div>
 
-  <nav class="flex justify-end items-center">
-    <ul class="flex">
-      <li class="mr-10"> 
-        <router-link to="/APropos">
-          <h3>
-            A PROPOS
-          </h3>
-        </router-link>
-      </li>
-      <li class="mr-10"> 
-        <router-link to="/Design">
-          <h3>
-            Design
-          </h3>
-        </router-link>
-      </li>
-      <li class="mr-10"> 
-        <router-link to="/Developpement">
-          <h3>
-            Développement
-          </h3>
-        </router-link>
-      </li>
-    </ul>
-  </nav>
+  <div>
+    <button
+      @click="openMenu = !openMenu" 
+      class="bg-whiteb fixed bottom-8 right-8 flex h-[50px] w-[50px] flex-col items-center justify-center gap-2 rounded-full bg-primary-200 shadow-card lg:hidden z-50"
+      >
+      <span
+          class="block h-[2px] w-1/2 bg-blackgreen transition-transform"
+          :class="{
+              'translate-y-2.5 rotate-45': openMenu,
+          }"
+      ></span>
+      <span class="block h-[2px] w-1/2 bg-blackgreen transition-opacity" :class="{ 'opacity-0': openMenu }"></span>
+      <span
+          class="block h-[2px] w-1/2 bg-blackgreen transition-transform"
+          :class="{
+              '-translate-y-2.5 -rotate-45': openMenu,
+          }"
+      ></span>
+    </button>
+
+    
+      <nav class="fixed top-0 left-0 bg-whiteb h-full w-full justify-center lg:justify-end items-center z-40  lg:relative"
+          :class="{
+              'flex': openMenu,
+              'hidden lg:flex': !openMenu,
+          }">
+        <ul class="flex flex-col lg:flex-row text-center gap-5 lg:gap-0">
+          <li class="mr-10"> 
+            <router-link @click="openMenu=false" to="/APropos">
+              <h3>
+                A PROPOS
+              </h3>
+            </router-link>
+          </li>
+          <li class="mr-10"> 
+            <router-link @click="openMenu=false" to="/Design">
+              <h3>
+                Design
+              </h3>
+            </router-link>
+          </li>
+          <li class="mr-10"> 
+            <router-link @click="openMenu=false" to="/Developpement">
+              <h3>
+                Développement
+              </h3>
+            </router-link>
+          </li>
+        </ul>
+      </nav>
+
+    </div>
+
+
 
 </header>
 
@@ -70,6 +101,7 @@ import { RouterLink, RouterView } from "vue-router";
 
 
 <script>
+  const openMenu = ref(false);
 export default {
   data() {
     return {
@@ -80,5 +112,6 @@ export default {
   
     
   },
+  
 };
 </script>
