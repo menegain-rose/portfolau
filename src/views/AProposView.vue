@@ -42,21 +42,22 @@
 </div>
 </section>
 
-<h2 class="px-4 sm:px-20 text-center sm:text-left pt-28">En maintenance :</h2>
-
-<section class="mx-10 sm:mx-20 mt-5 sm:mt-10 ">
+<section class="relative first-letter:mx-10 sm:mx-20 mt-10 sm:mt-20">
+    <div class="absolute top-0 left-0 w-full h-full bg-blackgreen bg-opacity-75 text-whiteb rounded-lg flex justify-center items-center">
+      <h3>En maintenance</h3>
+    </div>
     <form id="my-form" class="bg-clearbrown p-6 rounded-lg shadow-md" @submit.prevent="sendEmail">
       <div class="mb-4">
           <label class="block text-blackgreen font-bold mb-2" for="name">Nom</label>
-          <input class="shadow appearance-none border rounded w-full py-2 px-3 text-darkgreen leading-tight focus:outline-none focus:shadow-outline hover:brightness-0" id="name" type="text" placeholder="Votre nom">
+          <input class="shadow appearance-none border rounded w-full py-2 px-3 text-darkgreen leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Votre nom">
         </div>
         <div class="mb-4">
           <label class="block text-blackgreen font-bold mb-2" for="email">Email</label>
-          <input class="shadow appearance-none border rounded w-full py-2 px-3 text-darkgreen leading-tight focus:outline-none focus:shadow-outline hover:brightness-0" id="email" type="email" placeholder="Votre email">
+          <input class="shadow appearance-none border rounded w-full py-2 px-3 text-darkgreen leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Votre email">
         </div>
         <div class="mb-6">
           <label class="block text-blackgreen font-bold mb-2" for="message">Message</label>
-          <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-darkgreen leading-tight focus:outline-none focus:shadow-outline hover:brightness-0" id="message" placeholder="Votre message"></textarea>
+          <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-darkgreen leading-tight focus:outline-none focus:shadow-outline" id="message" placeholder="Votre message"></textarea>
         </div>
         <div class="flex justify-end">
           <Bouton class="my-4 sm:my-10" type="submit">
@@ -64,6 +65,7 @@
           </Bouton>
         </div> 
     </form>
+
 
 </section>
 
