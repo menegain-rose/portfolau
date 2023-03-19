@@ -30,40 +30,40 @@
           Contactez moi : 
         </p>
         <div class="flex mt-2 sm:mt-5">
-                <a href="https://github.com/menegain-rose">
-                    <img src="/public/Icons/Github.svg" class="w-8 mr-5 hover:bg-whiteb hover:bg-opacity-75 hover:rounded-sm hover:p-1" alt="Logo Github">
-                </a>
                 <a href="https://www.instagram.com/eiku_s/">
                     <img src="/public/Icons/Instagram.svg" class="w-8 mr-5 hover:bg-whiteb hover:bg-opacity-75 hover:rounded-sm hover:p-1" alt="Logo Instagram">
                 </a>
                 <a href="https://www.linkedin.com/in/rose-menegain/">
                     <img src="/public/Icons/Linkedin.svg" class="w-8 mr-5 hover:bg-whiteb hover:bg-opacity-75 hover:rounded-sm hover:p-1" alt="Logo Linkedin">
                 </a>
+                <p class=" mr-5 hover:bg-whiteb hover:bg-opacity-75 hover:rounded-sm hover:p-1">rose.menegain@gmail.com</p>
           </div>
     </div>
 </div>
 </section>
 
-<section class=" mx-10 sm:mx-20 mt-10 sm:mt-20">
-  <form id="my-form" class="bg-clearbrown p-6 rounded-lg shadow-md" @submit.prevent="sendEmail">
-    <div class="mb-4">
-        <label class="block text-gray-700 font-bold mb-2" for="name">Nom</label>
-        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Votre nom">
-      </div>
+<h2 class="px-4 sm:px-20 text-center sm:text-left pt-28">En maintenance :</h2>
+
+<section class="mx-10 sm:mx-20 mt-5 sm:mt-10 ">
+    <form id="my-form" class="bg-clearbrown p-6 rounded-lg shadow-md" @submit.prevent="sendEmail">
       <div class="mb-4">
-        <label class="block text-gray-700 font-bold mb-2" for="email">Email</label>
-        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Votre email">
-      </div>
-      <div class="mb-6">
-        <label class="block text-gray-700 font-bold mb-2" for="message">Message</label>
-        <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" placeholder="Votre message"></textarea>
-      </div>
-      <div class="flex justify-end">
-        <Bouton class="my-4 sm:my-10" type="submit">
-          Envoyer
-        </Bouton>
-      </div> 
-  </form>
+          <label class="block text-blackgreen font-bold mb-2" for="name">Nom</label>
+          <input class="shadow appearance-none border rounded w-full py-2 px-3 text-darkgreen leading-tight focus:outline-none focus:shadow-outline hover:brightness-0" id="name" type="text" placeholder="Votre nom">
+        </div>
+        <div class="mb-4">
+          <label class="block text-blackgreen font-bold mb-2" for="email">Email</label>
+          <input class="shadow appearance-none border rounded w-full py-2 px-3 text-darkgreen leading-tight focus:outline-none focus:shadow-outline hover:brightness-0" id="email" type="email" placeholder="Votre email">
+        </div>
+        <div class="mb-6">
+          <label class="block text-blackgreen font-bold mb-2" for="message">Message</label>
+          <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-darkgreen leading-tight focus:outline-none focus:shadow-outline hover:brightness-0" id="message" placeholder="Votre message"></textarea>
+        </div>
+        <div class="flex justify-end">
+          <Bouton class="my-4 sm:my-10" type="submit">
+            Envoyer
+          </Bouton>
+        </div> 
+    </form>
 
 </section>
 
